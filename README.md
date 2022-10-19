@@ -1,29 +1,24 @@
-# rambots-webpage
+# RamBOTs Webpage Repo
+                   
+This is the official CSU RAMBots wepbage repository. 
+Visit us at our [website](https://projects-web.engr.colostate.edu/ece-sr-design/AY22/RamBOTs).
 
-## Project setup
-```
-npm install
-```
+Using Javascript, Vue.js, and Vuetify
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+<img src="https://user-images.githubusercontent.com/112744753/196563382-2745e707-77d6-42d5-98a0-a29530e21c9a.png" width=50% height=50%>
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Files:
+------
 
-### Lints and fixes files
-```
-npm run lint
-```
+| File        | Description           |
+| ------------- |-------------|
+| README      | this file |
+| todo        |       |
 
-### git upload
-```
-git push --set-upstream origin master
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+  
+History:
+--------
+  
+ **2022-10-12:**  
+ <pre>Todo: move history from Eric's notebook</pre>  
