@@ -23,29 +23,29 @@ History:
  **2022-9-02:**  
  <pre>Vue installation and project setup</pre>  
  
-  **2022-9-06:**  
+ **2022-9-06:**  
  <pre>Basic routing and cleanup</pre>  
 
-  **2022-9-07:**  
+ **2022-9-07:**  
  <pre>Team page and planning</pre> 
  
-   **2022-9-08:**  
+ **2022-9-08:**  
  <pre>Team page progress and Gallery page</pre>
  
-   **2022-9-12:**  
+ **2022-9-12:**  
  <pre>Team page and planning</pre>
   
-   **2022-9-15:**  
+ **2022-9-15:**  
  <pre>Timeline page and resources page</pre>
  
-    **2022-9-18:**  
+ **2022-9-18:**  
  <pre>General cleanup and hosting</pre>
  
-     **2022-9-18:**  
+ **2022-9-18:**  
  <pre>General cleanup and hosting</pre>
  
-      **2022-9-20:**  
+ **2022-9-20:**  
  <pre>Final cleanup and mobile page development</pre>
  
-       **2022-10-06:**  
+ **2022-10-06:**  
  <pre>Monthly update</pre>
