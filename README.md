@@ -49,3 +49,6 @@ History:
  
  **2022-10-06:**  
  <pre>Monthly update. Added pictures and updated timeline</pre>
+
+ **2022-11-09:**  
+ <pre>Monthly update. Added pictures and restructured Gallery. Updated timeline</pre>
