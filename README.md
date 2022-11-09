@@ -13,7 +13,14 @@ Files:
 | File        | Description           |
 | ------------- |-------------|
 | README      | this file |
-| todo        |       |
+| assets/...        | all images used within the website      |
+| components/...        | Subdivisions of vue pages to act as independent and reusable pieces      |
+| plugins/...        | Plugins used with Vue, namely [Vuetify](https://vuetifyjs.com/en/) for good looking visuals       |
+| router/...        | Allow for navigation between different webpages   |
+| views/...        | Different webpages as .vue files       |
+| App.vue        | The main vue file, containing the appbar/footer and currently selected view      |
+| main.js        |  JavaScript to initialise the Vue app     |
+
 
 
   
