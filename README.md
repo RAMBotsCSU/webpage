@@ -48,4 +48,4 @@ History:
  <pre>Final cleanup and mobile page development</pre>
  
  **2022-10-06:**  
- <pre>Monthly update</pre>
+ <pre>Monthly update. Added pictures and updated timeline</pre>
