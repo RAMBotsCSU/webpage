@@ -23,8 +23,8 @@
 
                 <v-list-item class="mt-0">
                     <v-list-item-content>
-                        <a href="https://github.com/RAMBotsCSU"
-                           class="text-decoration-none text-h5">Official GitHub Repository</a>
+                        <a href="https://github.com/eppercin/rambots_website"
+                           class="text-decoration-none text-h5">Website GitHub Repository</a>
                         <v-list-item-subtitle></v-list-item-subtitle>
                     </v-list-item-content>
                 </v-list-item>
@@ -59,7 +59,7 @@
         data() {
             return {
                 mobile: false,
-                logo: require('../assets/chassis.jpg'),
+                logo: require('../assets/gallery/chassis.jpg'),
 
             }
         },
