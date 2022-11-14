@@ -1,63 +1,29 @@
-# RamBOTs Webpage Repo
-                   
-This is the official CSU RAMBots wepbage repository. 
-Visit us at our [website](https://projects-web.engr.colostate.edu/ece-sr-design/AY22/RamBOTs).
+# rambots-webpage
 
-Using Javascript, Vue.js, and Vuetify. Hosted by CSU.
+## Project setup
+```
+npm install
+```
 
-Created and maintained by Eric Percin.
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-<img src="https://user-images.githubusercontent.com/112744753/196563382-2745e707-77d6-42d5-98a0-a29530e21c9a.png" width=50% height=50%>
+### Compiles and minifies for production
+```
+npm run build
+```
 
-Files:
-------
+### Lints and fixes files
+```
+npm run lint
+```
 
-| File        | Description           |
-| ------------- |-------------|
-| README      | this file |
-| assets/...        | all images used within the website      |
-| components/...        | Subdivisions of vue pages to act as independent and reusable pieces      |
-| plugins/...        | Plugins used with Vue, namely [Vuetify](https://vuetifyjs.com/en/) for good looking visuals       |
-| router/...        | Allow for navigation between different webpages   |
-| views/...        | Different webpages as .vue files       |
-| App.vue        | The main vue file, containing the appbar/footer and currently selected view      |
-| main.js        |  JavaScript to initialise the Vue app     |
+### git upload
+```
+git push --set-upstream origin master
+```
 
-
-
-  
-History:
---------
-  
- **2022-9-02:**  
- <pre>Vue installation and project setup</pre>  
- 
- **2022-9-06:**  
- <pre>Basic routing and cleanup</pre>  
-
- **2022-9-07:**  
- <pre>Team page and planning</pre> 
- 
- **2022-9-08:**  
- <pre>Team page progress and Gallery page</pre>
- 
- **2022-9-12:**  
- <pre>Team page and planning</pre>
-  
- **2022-9-15:**  
- <pre>Timeline page and resources page</pre>
- 
- **2022-9-18:**  
- <pre>General cleanup and hosting</pre>
- 
- **2022-9-18:**  
- <pre>General cleanup and hosting</pre>
- 
- **2022-9-20:**  
- <pre>Final cleanup and mobile page development</pre>
- 
- **2022-10-06:**  
- <pre>Monthly update. Added pictures and updated timeline</pre>
-
- **2022-11-09:**  
- <pre>Monthly update. Added pictures and restructured Gallery. Updated timeline</pre>
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
