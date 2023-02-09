@@ -17,25 +17,48 @@
                     <v-list-item-content>
                         <a href="https://github.com/eppercin/rambots_website"
                            class="text-decoration-none text-h5">James Bruton's openDogV3</a>
-                        <v-list-item-subtitle>Source of original mechanical design</v-list-item-subtitle>
+                        <v-list-item-subtitle class="ml-4">Source of original mechanical design</v-list-item-subtitle>
                     </v-list-item-content>
                 </v-list-item>
 
                 <v-list-item class="mt-0">
                     <v-list-item-content>
-                        <a href="https://github.com/eppercin/rambots_website"
-                           class="text-decoration-none text-h5">Website GitHub Repository</a>
-                        <v-list-item-subtitle></v-list-item-subtitle>
+                        <a href="https://github.com/RAMBotsCSU"
+                           class="text-decoration-none text-h5">RamBOTs GitHub Organization</a>
+                           <a href="https://github.com/eppercin/rambots_website"
+                           class="text-decoration-none text-p1 ml-4 mt-2">Testing repository</a>
+                            <a href="https://github.com/eppercin/rambots_website"
+                           class="text-decoration-none text-p1 ml-4 mt-2">Locomotion repository</a>
+                           <a href="https://github.com/eppercin/rambots_website"
+                           class="text-decoration-none text-p1 ml-4 mt-2">Webpage repository</a>
+                           <a href="https://github.com/eppercin/rambots_website"
+                           class="text-decoration-none text-p1 ml-4 mt-2">Machine learning repository</a>
                     </v-list-item-content>
                 </v-list-item>
 
                 <v-list-item>
                     <v-list-item-content>
-                        <a href="RamBots_Project_Plan.pdf" download
+                        <a href="RamBots_Project_Plan.pdf" open
                            class="text-decoration-none text-h5">Project Plan</a>
+                           <v-list-item-subtitle class="ml-4">Preliminary planning (9/13/2022)</v-list-item-subtitle>
                     </v-list-item-content>
                 </v-list-item>
 
+                <v-list-item>
+                    <v-list-item-content>
+                        <a href="RamBots_Mid_Report.pdf" open
+                           class="text-decoration-none text-h5">Project Mid Report</a>
+                           <v-list-item-subtitle class="ml-4">1st semester progress report (12/10/2022)</v-list-item-subtitle>
+                    </v-list-item-content>
+                </v-list-item>
+
+                <v-list-item>
+                    <v-list-item-content>
+                        <a href="RamBOTs_Mid_Presentation.pptx" download
+                           class="text-decoration-none text-h5">Project Mid Presentation</a>
+                           <v-list-item-subtitle class="ml-4">1st semester presentation (12/10/2022)</v-list-item-subtitle>
+                    </v-list-item-content>
+                </v-list-item>
             </v-card>
         </v-col>
 
