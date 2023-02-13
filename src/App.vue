@@ -19,6 +19,7 @@
                         <v-tab to="/team">Team</v-tab>
                         <v-tab to="/resources">Documents</v-tab>
                         <v-tab to="/gallery">Gallery</v-tab>
+                        <v-tab to="/videos">Videos</v-tab>
                     </v-tabs>
                 </v-flex>
                
