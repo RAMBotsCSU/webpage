@@ -33,11 +33,16 @@ const routes = [
         name: 'gallery',
         component: () => import(/* webpackChunkName: "about" */ '../views/GalleryView.vue')
     },
+    {
+      path: '/videos',
+      name: 'videos',
+      component: () => import(/* webpackChunkName: "about" */ '../views/VideoView.vue')
+  },    
 ]
 
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
+  base: '/',
   routes
 })
 
