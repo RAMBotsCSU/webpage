@@ -1,4 +1,4 @@
-# RamBOTs Testing Repo
+# RamBOTs Webpage Repo
                    
 This is the official CSU RamBOTS Webpage repository. 
 Visit us at our [website](https://projects-web.engr.colostate.edu/ece-sr-design/AY22/RamBOTs).
