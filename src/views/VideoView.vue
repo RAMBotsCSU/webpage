@@ -4,28 +4,41 @@
 
 <p class="font-weight-medium text-h4 text--primary mt-4 text-center">Video Gallery</p>
 <v-row class="text-center mb-12">
-    <v-col class="text-center d-flex justify-space-around">
-        <v-card class="pa-2">
-            <video-embed src="https://youtu.be/lGujzt1vstc"></video-embed>
-        </v-card>
+    <v-col class="text-center d-flex justify-space">
+            <video-embed elevation="1" src="https://youtu.be/lGujzt1vstc"></video-embed>
     </v-col>
     <v-col class="text-center d-flex justify-space-around">
-        <v-card>
-            <video-embed src="https://youtu.be/Tb1ysV0rtFo"></video-embed>
-        </v-card>
+            <video-embed elevation="1" src="https://youtu.be/Tb1ysV0rtFo"></video-embed>
     </v-col>
     <v-col class="text-center d-flex justify-space-around">
-        <v-card>
-            <video-embed src="https://youtu.be/XzEjYknNzUg"></video-embed>
-        </v-card>
+            <video-embed elevation="1" src="https://youtu.be/XzEjYknNzUg"></video-embed>
     </v-col>
     <v-col class="text-center d-flex justify-space-around">
-        <v-card>
-
-        </v-card>
+            <video-embed elevation="1" src="https://www.youtube.com/watch?v=xvF6pBuC2yg"></video-embed>
     </v-col>
+        <v-col class="text-center d-flex justify-space-around">
+            <v-sheet color="grey lighten-5" elevation="1" height="150" width="300"></v-sheet>
+    </v-col>
+    
 </v-row>
-
+<v-row class="text-center mb-12">
+    <v-col class="text-center d-flex justify-space">
+            <v-sheet color="grey lighten-5" elevation="1" height="150" width="300"></v-sheet>
+    </v-col>
+    <v-col class="text-center d-flex justify-space-around">
+           <v-sheet color="grey lighten-5" elevation="1" height="150" width="300"></v-sheet>
+    </v-col>
+    <v-col class="text-center d-flex justify-space-around">
+            <v-sheet color="grey lighten-5" elevation="1" height="150" width="300"></v-sheet>
+    </v-col>
+    <v-col class="text-center d-flex justify-space-around">
+            <v-sheet color="grey lighten-5" elevation="1" height="150" width="300"></v-sheet>
+    </v-col>
+        <v-col class="text-center d-flex justify-space-around">
+            <v-sheet color="grey lighten-5" elevation="1" height="150" width="300"></v-sheet>
+    </v-col>
+    
+</v-row>
 
 
 </v-card>
