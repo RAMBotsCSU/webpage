@@ -54,7 +54,7 @@
 
                 <v-list-item>
                     <v-list-item-content>
-                        <a href="RamBOTs_Mid_Presentation.pptx" download
+                        <a href="RamBots_Mid_Report.pdf" download
                            class="text-decoration-none text-h5">Project Mid Presentation</a>
                            <v-list-item-subtitle class="ml-4">1st semester presentation (12/10/2022)</v-list-item-subtitle>
                     </v-list-item-content>

@@ -4,7 +4,10 @@ import router from './router'
 import vuetify from './plugins/vuetify'
 
 import Embed from 'v-video-embed'
+ 
+// global register
 Vue.use(Embed);
+
 
 Vue.config.productionTip = false
 

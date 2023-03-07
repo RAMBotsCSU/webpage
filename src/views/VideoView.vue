@@ -1,30 +1,27 @@
 <template>
+
  <v-card color="white" elevation="2" class="pa-8 ma-4">
 
 <p class="font-weight-medium text-h4 text--primary mt-4 text-center">Video Gallery</p>
 <v-row class="text-center mb-12">
     <v-col class="text-center d-flex justify-space-around">
         <v-card class="pa-2">
-            <video-embed :params="{autoplay: 0}" ref="youtube" src="https://www.youtube.com/watch?v=s4ObxcdXoFE&list=PLOtXQ1m0FkHBRg_6v8lJfX9AKKamgYrjC">
-</video-embed>
+            <video-embed src="https://youtu.be/lGujzt1vstc"></video-embed>
         </v-card>
     </v-col>
     <v-col class="text-center d-flex justify-space-around">
         <v-card>
-            <video-embed :params="{autoplay: 0}" ref="youtube" src="https://www.youtube.com/watch?v=s4ObxcdXoFE&list=PLOtXQ1m0FkHBRg_6v8lJfX9AKKamgYrjC">
-</video-embed>
+            <video-embed src="https://youtu.be/Tb1ysV0rtFo"></video-embed>
         </v-card>
     </v-col>
     <v-col class="text-center d-flex justify-space-around">
         <v-card>
-            <video-embed :params="{autoplay: 0}" ref="youtube" src="https://www.youtube.com/watch?v=s4ObxcdXoFE&list=PLOtXQ1m0FkHBRg_6v8lJfX9AKKamgYrjC">
-</video-embed>
+            <video-embed src="https://youtu.be/XzEjYknNzUg"></video-embed>
         </v-card>
     </v-col>
     <v-col class="text-center d-flex justify-space-around">
         <v-card>
-            <video-embed :params="{autoplay: 0}" ref="youtube" src="https://www.youtube.com/watch?v=s4ObxcdXoFE&list=PLOtXQ1m0FkHBRg_6v8lJfX9AKKamgYrjC">
-</video-embed>
+
         </v-card>
     </v-col>
 </v-row>
