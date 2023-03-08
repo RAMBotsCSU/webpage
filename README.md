@@ -59,4 +59,3 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Upload the contents of the dist directory. Wait a few minutes and the website should go live.
 
 
-
