@@ -4,7 +4,7 @@
         <v-app-bar app
                    :src="require('./assets/appbar.png')"
                    color="#1E4D2B" >
-            <v-app-bar-nav-icon color="white"> </v-app-bar-nav-icon>
+            
             <v-img max-width="201px" :src="require('./assets/CSUWatermarkSmall.png')"></v-img>
             
 
