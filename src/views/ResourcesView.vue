@@ -25,14 +25,18 @@
                     <v-list-item-content>
                         <a href="https://github.com/RAMBotsCSU"
                            class="text-decoration-none text-h5">RamBOTs GitHub Organization</a>
-                           <a href="https://github.com/eppercin/rambots_website"
+                           <a href="https://github.com/RAMBotsCSU/deployment"
+                           class="text-decoration-none text-p1 ml-4 mt-2">Deployment repository</a>
+                            <a href="https://github.com/RAMBotsCSU/testing"
                            class="text-decoration-none text-p1 ml-4 mt-2">Testing repository</a>
-                            <a href="https://github.com/eppercin/rambots_website"
-                           class="text-decoration-none text-p1 ml-4 mt-2">Locomotion repository</a>
-                           <a href="https://github.com/eppercin/rambots_website"
+                           <a href="https://github.com/RAMBotsCSU/machine_learning"
+                           class="text-decoration-none text-p1 ml-4 mt-2">Machine Learning repository</a>
+                           <a href="https://github.com/RAMBotsCSU/source"
+                           class="text-decoration-none text-p1 ml-4 mt-2">Source repository</a>
+                           <a href="https://github.com/RAMBotsCSU/outreach"
+                           class="text-decoration-none text-p1 ml-4 mt-2">Outreach repository</a>
+                           <a href="https://github.com/RAMBotsCSU/webpage"
                            class="text-decoration-none text-p1 ml-4 mt-2">Webpage repository</a>
-                           <a href="https://github.com/eppercin/rambots_website"
-                           class="text-decoration-none text-p1 ml-4 mt-2">Machine learning repository</a>
                     </v-list-item-content>
                 </v-list-item>
 
@@ -52,13 +56,7 @@
                     </v-list-item-content>
                 </v-list-item>
 
-                <v-list-item>
-                    <v-list-item-content>
-                        <a href="RamBOTs_Mid_Presentation.pptx" download
-                           class="text-decoration-none text-h5">Project Mid Presentation</a>
-                           <v-list-item-subtitle class="ml-4">1st semester presentation (12/10/2022)</v-list-item-subtitle>
-                    </v-list-item-content>
-                </v-list-item>
+
             </v-card>
         </v-col>
 

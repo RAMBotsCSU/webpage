@@ -103,10 +103,12 @@
 
             <v-col cols="3">
                 <p class="text-center font-weight-light text-h4 text--primary mt-8">
-                    Industry Member
+                    Industry Members
                 </p>
                 <v-divider class="mt-n4 mb-2"></v-divider>
                 <p class="text-center font-weight-light">Jon Lotz</p>
+                <p class="text-center font-weight-light">Bill Hudson</p>
+                <p class="text-center font-weight-light">Hugh Wallace</p>
             </v-col>
             <v-col cols="3"><v-spacer></v-spacer></v-col>
         </v-row>
@@ -174,10 +176,12 @@
 
             <v-col cols="6">
                 <p class="text-center font-weight-light text-h4 text--primary mt-8">
-                    Industry Member
+                    Industry Members
                 </p>
                 <v-divider class="mt-n4 mb-2"></v-divider>
                 <p class="text-center font-weight-light">Jon Lotz</p>
+                <p class="text-center font-weight-light">Bill Hudson</p>
+                <p class="text-center font-weight-light">Hugh Wallace</p>
             </v-col>
         </v-row>
         <v-row>
