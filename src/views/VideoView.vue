@@ -16,15 +16,15 @@
     <v-col class="text-center d-flex justify-space-around">
             <video-embed elevation="1" src="https://www.youtube.com/watch?v=xvF6pBuC2yg"></video-embed>
     </v-col>
-        <v-col class="text-center d-flex justify-space-around">
-            <v-sheet color="grey lighten-5" elevation="1" height="150" width="300"></v-sheet>
+    <v-col class="text-center d-flex justify-space-around">
+            <video-embed elevation="1" src="https://youtu.be/0eQwpkMz9T8"></video-embed>
     </v-col>
-    
 </v-row>
 <v-row class="text-center mb-12">
     <v-col class="text-center d-flex justify-space">
-            <v-sheet color="grey lighten-5" elevation="1" height="150" width="300"></v-sheet>
+        <video-embed elevation="1" src="https://youtu.be/nPgpwkBiq1I"></video-embed>
     </v-col>
+    
     <v-col class="text-center d-flex justify-space-around">
            <v-sheet color="grey lighten-5" elevation="1" height="150" width="300"></v-sheet>
     </v-col>
