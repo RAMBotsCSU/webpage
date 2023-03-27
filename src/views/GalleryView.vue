@@ -85,7 +85,7 @@
                     { title: 'Meeting with EIR', src: require('../assets/gallery/eir_meeting.jpg'), flex: 4 },
                     { title: 'Working on the robot', src: require('../assets/gallery/assembling_the_bot.jpg'), flex: 4 },
                     { title: 'Using the oscilloscope', src: require('../assets/gallery/oscilloscope_with_EIR.jpg'), flex: 4 },
-                    { title: 'Encoder in oscilloscope', src: require('../assets/gallery/encoder_signals.jpg'), flex: 4 },
+                    { title: 'Leg programming setup', src: require('../assets/gallery/leg_programming_setup.jpg'), flex: 4 },
                 ],
                 art: [
                     { title: 'Logos by Gwyn Tari', src: require('../assets/gallery/RamLogoLarge.png'), flex: 4 },
