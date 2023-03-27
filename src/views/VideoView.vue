@@ -24,9 +24,8 @@
     <v-col class="text-center d-flex justify-space">
         <video-embed elevation="1" src="https://youtu.be/nPgpwkBiq1I"></video-embed>
     </v-col>
-    
     <v-col class="text-center d-flex justify-space-around">
-           <v-sheet color="grey lighten-5" elevation="1" height="150" width="300"></v-sheet>
+<video-embed elevation="1" src="https://youtu.be/aV50ot9t3os"></video-embed>
     </v-col>
     <v-col class="text-center d-flex justify-space-around">
             <v-sheet color="grey lighten-5" elevation="1" height="150" width="300"></v-sheet>
