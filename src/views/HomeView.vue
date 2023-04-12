@@ -2,6 +2,7 @@
 
 
     <v-container>
+        
         <v-row class="mt-4">
             <v-col :cols="this.mobile ? 12 : 5">
                 <v-card class=" pa-2 mt-12 justify-center" outlined color="transparent" height="100%">
@@ -9,8 +10,10 @@
                         <v-row>
                             <v-col cols="1"><v-spacer></v-spacer></v-col>
                             <v-col cols="10">
-                                <v-img width="600px" class="mt-6" :src="require('../assets/RamLogoText.png')"></v-img>
+                                <v-img width="600px" class="mobile ? mt-n16 : mt-6" :src="require('../assets/RamLogoText.png')"></v-img>
 
+                                <v-row >
+                                    <v-spacer></v-spacer>
                                 <v-btn text class="mt-0"
                                        href="https://projects-web.engr.colostate.edu/ece-sr-design/AY21/outreach/"
                                        target="_blank">
@@ -18,6 +21,33 @@
                                         mdi-link
                                     </v-icon>
                                 </v-btn>
+                                <v-spacer></v-spacer>
+                                </v-row>
+                                <v-row class="mt-6">
+                                    <v-spacer></v-spacer>
+                                <v-btn text class="mt-0"
+                                       href="https://www.youtube.com/channel/UC3K_Uz-jJc2ynTyCAwXKSBg"
+                                       target="_blank">
+                                    Visit us on Youtube<v-icon class="ml-8" size="50" color="red" right>
+                                        mdi-youtube
+                                    </v-icon>
+                                </v-btn>
+                                <v-spacer></v-spacer>
+                            </v-row>
+                            <v-row class="mt-6">
+                                <v-spacer></v-spacer>
+                                <v-btn text class="mt-0"
+                                       href="https://github.com/RAMBotsCSU"
+                                       target="_blank">
+                                    Visit us on Github<v-icon class="ml-11" size="50" right>
+                                        mdi-github
+                                    </v-icon>
+                                </v-btn>
+                                <v-spacer></v-spacer>
+                            </v-row>
+                            
+
+
                             </v-col>
                             <v-col cols="1"><v-spacer></v-spacer></v-col>
                         </v-row>
@@ -27,7 +57,7 @@
             </v-col>
             <v-col :cols="this.mobile ? 12 : 7">
                 <v-card class="pa-2" outlined color="transparent">
-                    <v-carousel :height="this.mobile ? 300 : 600" width="500">
+                    <v-carousel :height="this.mobile ? 300 : 700" width="500px">
                         <v-carousel-item reverse-transition="fade-transition"
                                          transition="fade-transition"
                                          v-for="(item, i) in items"
@@ -195,18 +225,23 @@
         data() {
             return {
                 logo: require('../assets/gallery/chassis.jpg'),
+                youtube: require('../assets/youtube_logo.png'),
                 mobile: false,
                 url: "https://projects-web.engr.colostate.edu/ece-sr-design/AY21/outreach/",
                 items: [
                     {
-                        src: require('../assets/gallery/chassis.jpg'),
+                        src: require('../assets/gallery/rambot_standing.jpg'),
+                    },
+                    {
+                        src: require('../assets/gallery/assembling_the_bot.jpg'),
+                    },
+                    {
+                        src: require('../assets/gallery/oscilloscope_with_EIR.jpg'),
                     },
                     {
                         src: require('../assets/year2/team_full.jpg'),
                     },
-                    {
-                        src: require('../assets/gallery/chassis2.jpg'),
-                    },
+
                 ],
             }
         },

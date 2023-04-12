@@ -1,16 +1,10 @@
 <template>
     <v-app>
 
-        <v-app-bar app
+        <v-app-bar app v-if="!this.mobile"
                    :src="require('./assets/appbar.png')"
                    color="#1E4D2B" >
-            
             <v-img max-width="201px" :src="require('./assets/CSUWatermarkSmall.png')"></v-img>
-            
-
-
-
-
             <template v-slot:extension >
                 <v-flex class="ml-n8">
                     <v-tabs color="#1E4D2B" align-with-title>
@@ -26,6 +20,51 @@
             </template>
         </v-app-bar>
 
+        <v-layout v-else>
+          <v-navigation-drawer
+      app
+      fixed
+      v-model="showMenu"
+
+    >
+    
+      <v-list dense>
+        <v-list-item class="mt-4" to="/">Home
+        </v-list-item>
+        <v-list-item class="mt-4" to="/timeline">Timeline
+        </v-list-item>
+        <v-list-item class="mt-4" to="/team">Team
+        </v-list-item>
+        <v-list-item class="mt-4" to="/resources">Resources
+        </v-list-item>       
+        <v-list-item class="mt-4" to="/gallery">Gallery  
+        </v-list-item>
+        <v-list-item class="mt-4" to="/videos">Videos
+        </v-list-item>    
+      </v-list>
+    </v-navigation-drawer>
+
+    <v-app-bar
+      app
+      fixed
+      dark
+      color="#1E4D2B"
+    >
+      <v-app-bar-nav-icon @click.stop="toggleMenu"></v-app-bar-nav-icon>
+      <v-img max-width="201px" :src="require('./assets/CSUWatermarkSmall.png')"></v-img>
+
+    </v-app-bar>
+    </v-layout>
+
+      <v-navigation-drawer
+        v-model="drawer"
+        location="left"
+        temporary
+      >
+        <v-list
+          :items="items"
+        ></v-list>
+      </v-navigation-drawer>
      
         <v-main>
 
@@ -63,13 +102,47 @@
       </v-col>
     </v-row>
   </v-footer>
-
+oscilloscope_with_EIR
     </v-app>
 </template>
 
 <script>
     export default {
+      mounted() {
+            this.mobile = window.innerWidth <= 760
+        },
+        methods: {
+            toggleMenu() {
+                this.showMenu = !this.showMenu
+            },
+            doNothing() {
+                console.log('do nothing')
+            },
+        },
         data: () => ({
+
+          drawer:false,
+          showMenu: false,
+            mobile: false,
+            group:null,
+            items: [
+        {
+          title: 'Foo',
+          value: 'foo',
+        },
+        {
+          title: 'Bar',
+          value: 'bar',
+        },
+        {
+          title: 'Fizz',
+          value: 'fizz',
+        },
+        {
+          title: 'Buzz',
+          value: 'buzz',
+        },
+      ],
             links: null,
             model: 0,
             colors: [

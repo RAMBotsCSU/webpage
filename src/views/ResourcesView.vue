@@ -1,6 +1,5 @@
 <template>
-
-
+ <v-card color="white" elevation="2" class="pa-8 ma-4">
 
     <v-row>
         <v-col cols="2">
@@ -55,6 +54,7 @@
                            <v-list-item-subtitle class="ml-4">1st semester progress report (12/10/2022)</v-list-item-subtitle>
                     </v-list-item-content>
                 </v-list-item>
+                <v-spacer></v-spacer>
 
 
             </v-card>
@@ -66,7 +66,8 @@
     </v-row>
 
 
-   
+                
+</v-card>
 
 </template>
 
