@@ -28,15 +28,31 @@
 <video-embed elevation="1" src="https://youtu.be/aV50ot9t3os"></video-embed>
     </v-col>
     <v-col class="text-center d-flex justify-space-around">
-            <v-sheet color="grey lighten-5" elevation="1" height="150" width="300"></v-sheet>
+        <video-embed elevation="1" src="https://www.youtube.com/watch?v=XT73xWqmi78&ab_channel=RamBOTs"></video-embed>
     </v-col>
     <v-col class="text-center d-flex justify-space-around">
-            <v-sheet color="grey lighten-5" elevation="1" height="150" width="300"></v-sheet>
+        <video-embed elevation="1" src="https://www.youtube.com/watch?v=Lt--0nAPuSA&ab_channel=RamBOTs"></video-embed>
     </v-col>
         <v-col class="text-center d-flex justify-space-around">
-            <v-sheet color="grey lighten-5" elevation="1" height="150" width="300"></v-sheet>
+            <video-embed elevation="1" src="https://www.youtube.com/watch?v=noQQGqFBcIw&ab_channel=RamBOTs"></video-embed>
     </v-col>
-    
+</v-row>
+<v-row class="text-center mb-12">
+    <v-col class="text-center d-flex justify-space">
+        <v-sheet color="grey lighten-3" elevation="1" height="150" width="300"></v-sheet>
+    </v-col>
+    <v-col class="text-center d-flex justify-space-around">
+        <v-sheet color="grey lighten-3" elevation="1" height="150" width="300"></v-sheet>
+    </v-col>
+    <v-col class="text-center d-flex justify-space-around">
+        <v-sheet color="grey lighten-3" elevation="1" height="150" width="300"></v-sheet>
+    </v-col>
+    <v-col class="text-center d-flex justify-space-around">
+        <v-sheet color="grey lighten-3" elevation="1" height="150" width="300"></v-sheet>
+    </v-col>
+        <v-col class="text-center d-flex justify-space-around">
+            <v-sheet color="grey lighten-3" elevation="1" height="150" width="300"></v-sheet>
+    </v-col>
 </v-row>
 
 
