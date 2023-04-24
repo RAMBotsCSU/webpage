@@ -39,10 +39,10 @@
 </v-row>
 <v-row class="text-center mb-12">
     <v-col class="text-center d-flex justify-space">
-        <v-sheet color="grey lighten-3" elevation="1" height="150" width="300"></v-sheet>
+        <video-embed elevation="1" src="https://youtu.be/axCfKZ4Z-Ik"></video-embed>
     </v-col>
     <v-col class="text-center d-flex justify-space-around">
-        <v-sheet color="grey lighten-3" elevation="1" height="150" width="300"></v-sheet>
+        <video-embed elevation="1" src="https://youtu.be/343kp-O3OiQ"></video-embed>
     </v-col>
     <v-col class="text-center d-flex justify-space-around">
         <v-sheet color="grey lighten-3" elevation="1" height="150" width="300"></v-sheet>

@@ -11,7 +11,7 @@
                 <p class="text-h4 text--primary mt-4">
                     Project Timeline
                 </p>
-                <v-img contains class="ma-4" :src="require('../assets/schedule-1.png')"></v-img>
+                <v-img contains class="ma-4" :src="require('../assets/timeline.png')"></v-img>
 
                 <p>
                     The primary critical path of this project is as follows: motor functionality, ODrive functionality, wiring, leg movement functionality, locomotion functionality. By delegating each of these tasks to team members of relevant specializations, the team plans to have the motors and ODrives working by halfway through the fall semester. This will allow the team to dedicate the remainder of the semester to leg movement--a complicated task which will last well into the spring semester. Once leg movement is deemed sufficient, the team will spend the rest of the spring semester working on general locomotion.
