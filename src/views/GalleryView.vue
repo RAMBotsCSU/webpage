@@ -116,8 +116,10 @@
                     { title: '', src: require('../assets/gallery/RamLogoSmall.png'), flex: 4 },
                 ],
                 team: [
-                    { title: 'Team Seniors', src: require('../assets/team_seniors.jpg'), flex: 6 },
-                    { title: 'Full Team', src: require('../assets/year2/team_full.jpg'), flex: 6 },
+                    { title: 'Year 3 Team Seniors', src: require('../assets/year3/year3_seniors.jpg'), flex: 6 },
+                    { title: 'Year 3 Full Team', src: require('../assets/year3/year3_full.jpg'), flex: 6 },
+                    { title: 'Year 2 Team Seniors', src: require('../assets/team_seniors.jpg'), flex: 6 },
+                    { title: 'Year 2 Full Team', src: require('../assets/year2/team_full.jpg'), flex: 6 },
 
                 ],
             }

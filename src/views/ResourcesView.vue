@@ -38,19 +38,27 @@
                            class="text-decoration-none text-p1 ml-4 mt-2">Webpage repository</a>
                     </v-list-item-content>
                 </v-list-item>
+                
+                <v-list-item>
+                    <v-list-item-content>
+                        <a href="Year_3_RamBots_Project_Plan.pdf" open
+                           class="text-decoration-none text-h5">Year 3's Project Plan</a>
+                           <v-list-item-subtitle class="ml-4">Preliminary planning (9/22/2022)</v-list-item-subtitle>
+                    </v-list-item-content>
+                </v-list-item>
 
                 <v-list-item>
                     <v-list-item-content>
-                        <a href="RamBots_Project_Plan.pdf" open
-                           class="text-decoration-none text-h5">Project Plan</a>
+                        <a href="Year_2_RamBots_Project_Plan.pdf" open
+                           class="text-decoration-none text-h5">Year 2's Project Plan</a>
                            <v-list-item-subtitle class="ml-4">Preliminary planning (9/13/2022)</v-list-item-subtitle>
                     </v-list-item-content>
                 </v-list-item>
 
                 <v-list-item>
                     <v-list-item-content>
-                        <a href="RamBots_Mid_Report.pdf" open
-                           class="text-decoration-none text-h5">Project Mid Report</a>
+                        <a href="Year_2_RamBots_Mid_Report.pdf" open
+                           class="text-decoration-none text-h5">Year 2's Project Mid Report</a>
                            <v-list-item-subtitle class="ml-4">1st semester progress report (12/10/2022)</v-list-item-subtitle>
                     </v-list-item-content>
                 </v-list-item>

@@ -11,13 +11,19 @@
                 <p class="text-h4 text--primary mt-4">
                     Project Timeline
                 </p>
-                <v-img contains class="ma-4" :src="require('../assets/timeline.png')"></v-img>
-
+                <p class="text-h4 text--primary mt-4">
+                    2023-2024 Team's Semester 1 Timeline
+                </p>
+                <v-img contains class="ma-4" :src="require('../assets/year3/Year_3_Timeline_Sem1.png')"></v-img>
+                <p class="text-h4 text--primary mt-4">
+                    2023-2024 Team's Semester 2 Timeline
+                </p>
+                <v-img contains class="ma-4" :src="require('../assets/year3/Year_3_Timeline_Sem2.png')"></v-img>
                 <p>
-                    The primary critical path of this project is as follows: motor functionality, ODrive functionality, wiring, leg movement functionality, locomotion functionality. By delegating each of these tasks to team members of relevant specializations, the team plans to have the motors and ODrives working by halfway through the fall semester. This will allow the team to dedicate the remainder of the semester to leg movement--a complicated task which will last well into the spring semester. Once leg movement is deemed sufficient, the team will spend the rest of the spring semester working on general locomotion.
+                    The 2023-2024 team intends to first improve the startup process of the robot and ensure that it works properly and more reliably compared to last year. We plan to build upon the design by creating a way for it to walk on uneven surfaces and have better balance overall. This year’s team also has three mechanical engineers compared to the two that were involved last year, which will allow for more reevaluation or even reconstruction, as a few of the parts have become worn over the years.
                 </p>
                 <p>
-                    Tasks such as machine learning, website development, and administration are not dependent on the critical path and will be worked on concurrently. Other smaller tasks such as power requirements, 3D printing additional parts, and sensor testing will be conducted as deemed necessary by the critical path.
+                    Some of these items include building a fifth leg for testing, object detection and tracking, collision avoidance using LiDAR, create a new stand, improve the codespace for the robot, and complete teting and simulations of major components.
                 </p>
             </v-card>
         </v-col>
