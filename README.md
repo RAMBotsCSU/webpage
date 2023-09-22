@@ -1,7 +1,7 @@
 # RamBOTs Webpage Repo
                    
 This is the official CSU RamBOTS Webpage repository. 
-Visit us at our [website](https://projects-web.engr.colostate.edu/ece-sr-design/AY22/RamBOTs).
+Visit us at our [website](https://projects-web.engr.colostate.edu/ece-sr-design/AY23/RamBOTs).
 The RamBOTS webpage is a JavaScript app using the Vue.js front end framework and Vuetify component framework.
 
 
