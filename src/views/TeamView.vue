@@ -14,8 +14,9 @@
                 </v-tabs>
                 <v-divider></v-divider>
                 <v-card outlined color="transparent" class="d-flex justify-center align-center">
-                    <TeamYear2 v-if="tab == 0" />
-                    <TeamYear1 v-if="tab == 1" />
+                    <TeamYear3 v-if="tab == 0" />
+                    <TeamYear2 v-if="tab == 1" />
+                    <TeamYear1 v-if="tab == 2" />
                 </v-card>
             </v-card>
         </v-col>
@@ -33,6 +34,7 @@
 <script>
     import TeamYear1 from '../components/TeamYear1.vue'
     import TeamYear2 from '../components/TeamYear2.vue'
+    import TeamYear3 from '../components/TeamYear3.vue'
     export default {
         mounted() {
             this.mobile = window.innerWidth <= 760
@@ -43,7 +45,8 @@
         },
         components: {
             TeamYear1,
-            TeamYear2
+            TeamYear2,
+            TeamYear3
         },
         data() {
             return {
