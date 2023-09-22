@@ -84,87 +84,63 @@
                             Project Summary
                         </p>
                         <p>
-                            The RamBOTs senior design project is an extension of the electrical and computer engineering outreach program. It is a quadrupedal robot intended as an educational tool that is open source and more economic than current existing counterparts. As an extension of outreach, the intention is that this project will be demonstrated to many groups of younger students (ranging from middle school to high school age) to show them the possibilities of electrical and computer engineering (ECE) as well as engineering as a whole as this is a multidisciplinary project in nature.
+                            RamBOTs is a multidisciplinary senior design team composed of electrical, computer, and mechanical engineers. In this project, we plan to learn about robotics through the development of a quadrupedal robot and integrate newer technologies that are currently changing robotics. We will work with different aspects of engineering such as machine learning, kinematics, motor control, computer aided design (CAD), and power systems to create a robot that will be able to navigate an unknown environment to follow a thrown object. The team also aims to demonstrate the pieces that make up the robot in a way that's accessible and exciting for different age groups in tandem with Electrical and Computer Engineering (ECE) Outreach.
                         </p>
                         <p class="text-h4 text--primary  mt-12">
                             Background
                         </p>
                         <p>
-                            This project is intended to increase exposure and access to robotics through being open source and more economic compared to other options, exemplifying the purpose of ECE outreach. It is important to make ECE accessible to everyone. By sharing exciting projects that inspire younger students it is possible to bring more attention to engineering as a whole and to help encourage the next generation of engineers and problem solvers.
+                            The primary objective of this project, consistent with previous years, is to create an educational and outreach tool in the form of an open-source quadrupedal robot. RamBOTs is an ongoing multi-year project now entering its third year, with significant progress already achieved.
+                        </p>
+                        <p>
+                            In the initial year, the focus was on harnessing machine learning to identify objects using a camera. That team initially adopted the openDog V2 project by James Bruton and began the process of replicating it. However, during that year, a new iteration called openDog V3 was released, which briefly shifted their course. Despite this, by the end of the first year, they had successfully 3D printed several essential robot components.
+                        </p>
+                        <p>
+                            The second-year team continued from where the previous team left off, completing the 3D printing phase and moving on to assemble the robot's electronics, software, and hardware. By the close of the second year, the robot could walk, perform push ups, and engage in various activities.
+
                         </p>
                         <p class="text-h4 text--primary  mt-12">
                             Constraints
                         </p>
                         <p>
-                            The purpose of this project is to develop an open-source quadrupedal robot as an educational outreach tool to foster interest in engineering and robotics. The mechanical design of the RamBOT is largely based off of an existing open source robotics project-the team primarily intends to improve upon electronics and software to enhance said design. As a 2nd-year continuation project a considerable amount of prerequisite work on the robot has been completed. Most notably, the chassis has been constructed and hardware has been acquired in preparation to begin testing components and programming. The following items have been inherited from the previous year's team:
-                        </p>
-                        <p class="ml-8">
-                            A 3D printed chassis / body, motors and drivers (not all have been tested), a stand for storage/transportation
-                        </p>
-                        <p class="ml-8">
-                            Motors and drivers (not all have been tested), a stand for storage/transportation
-                        </p>
-                        <p class="ml-8">
-                            A stand for storage/transportation
-                        </p>
-                        <p class="ml-8">
-                            Machine learning algorithms
+                            Currently, the robot faces significant reliability issues, which have become a primary focus for this year's efforts. In addition to enhancing reliability, we aim to make the robot a more engaging engineering tool. To achieve this, we plan to enable the robot to navigate an uneven concrete surface to play fetch - allowing users to throw a ball for the robot to follow. This entails teaching the robot to maneuver autonomously, with a strong emphasis on safety through obstacle detection to prevent collisions. Object detection and tracking will also be pivotal this year, enabling the robot to locate the ball accurately. Furthermore, as a stretch goal, we hope to implement voice commands to offer users an interactive way to engage with the robot dog.
                         </p>
                         <p>
-                            This year''s team intends to test everything received from the previous year''s team, beginning with the hardware (e.g. motors and motor drivers) so that there will be sufficient time to reorder any faulty components. Additionally, last year's team consisted of eight ECE students while this year's consists of eight ECE students and two Mechanical Engineering students. This will allow the current team to reevaluate the existing mechanical structure of the robot and to make modifications as necessary, as well as to implement locomotion more seamlessly. Existing machine learning algorithms will be tested for accuracy and modified as needed throughout the project's development cycle.
+                            These tasks are challenging, so we have a range of supporting tasks, including documentation, simulation, and stress tests, which are equally essential. These tasks will not only enhance the robot's functionality but also provide valuable insights for the next year's team as they embark on further improvements.
                         </p>
                         <p class="text-h4 text--primary  mt-12">
                             Goals
                         </p>
                         <p>
-                            The seniors and Junior Outreach members on the RamBOTs Senior Design Team at Colorado State University will adhere to the timeline in the final section of this project plan to fulfill a completed design. The definition of a completed design is laid out in the following goals and objectives:
+                            The primary objectives of the RamBOTs project can be categorized into short, medium, and long-term goals. These objectives are designed to guide the project's development and measure its success using SMART criteria: Specific, Measurable, Achievable, Realistic, and Timely.
                         </p>
-                        <v-list-item three-line>
+                        <v-list-item>
                             <v-list-item-content>
-                                <v-list-item-title>Stable quadrupedal standing and movement</v-list-item-title>
-                                <v-list-item-subtitle class="ml-4">
-                                    Motors demonstrate consistent and accurate programmed movement (Test 1)
-                                </v-list-item-subtitle>
-                                <v-list-item-subtitle class="ml-4">
-                                    Can be controlled or programmed to move towards an objective and does not fall over under common operational circumstances (Test 2)
-                                </v-list-item-subtitle>
-                                <v-list-item-subtitle class="ml-4">
-                                    Gyroscope senses and accurately returns movement data (Test 3)
-                                </v-list-item-subtitle>
+                                <v-list-item-title>Short-Term Goals (Complete in Less Than A Month)</v-list-item-title>
+                                    <p class="ml-8">In the initial phase, the team's objectives are to familiarize themselves with the project's history and get the robot up and running for basic functionality. This includes ensuring the robot can perform standard procedures like those during last year’s E-Days and move each leg individually for stress testing. Additionally, the mechanical team plans to build a fifth leg for testing and a stand for the robot. This leg will be useful in understanding specific kinematics of the robot and will help the team with later goal items such as fine tuning movement (see Medium-Term Goals). For the electrical and computer engineering teams, the goal is to enhance the robot's recognition abilities by understanding the existing code, training a machine learning algorithm, and implementing a LiDAR sensor to detect objects within 1 foot. The team would also like to address some safety issues, such as exposed wire connections, accessibility and treatment of the batteries, and lack of safety procedures. </p>
                             </v-list-item-content>
                         </v-list-item>
 
                         <v-list-item three-line>
                             <v-list-item-content>
-                                <v-list-item-title>Machine learning implemented</v-list-item-title>
-                                <v-list-item-subtitle class="ml-4 mr-8">
-                                    Can, with high confidence, recognize a toy ball compared to surrounding objects (Test 4)
-                                </v-list-item-subtitle>
+                                <v-list-item-title>Medium Term Goals (Complete Within the First Semester)</v-list-item-title>
+                                    <p class="ml-8">In the medium term, the project aims to make progress towards more advanced capabilities. This includes getting the robot to walk on an uneven concrete surface, and quantifying its performance limits. The goal is to have the robot run for 20 minutes at a time and consistently operate on a 5 percent grade. Mechanical engineering will focus on simulation and stress testing of the legs which includes having a physical leg model for testing as well as a versatile Finite Element Analysis (FEA) simulation model. FEA simulation will be considered complete when the full model (as well as individual components of interest) have accessible and editable project files with clearly defined attributes such as tensile, shear and compression strengths. Meanwhile, the computer and electrical engineering teams will work on object recognition and tracking (increasing the size of our training set for specific objects), measuring the amount of current going to each motor, and self-tests for motors and ODESCs. Safety reviews and documentation of wiring are also planned.</p>
                             </v-list-item-content>
                         </v-list-item>
 
                         <v-list-item three-line>
                             <v-list-item-content>
-                                <v-list-item-title>Useful as tool for ECE Outreach</v-list-item-title>
-                                <v-list-item-subtitle class="ml-4 mr-8">
-                                    Entirely open-source
-                                </v-list-item-subtitle>
-                                <v-list-item-subtitle class="ml-4">
-                                    Chassis and harness that can reliably withstand regular use of product and travel (Test 5)
-                                </v-list-item-subtitle>
-
+                                <v-list-item-title>Long-Term Goals (Complete by E-Days/End of 2nd Semester)</v-list-item-title>
+                                    <p class="ml-8">By E-Days, the team envisions the robot being able to play fetch, follow a person using various commands, and increase bystander engagement through enhancing the interactive aspects of the project. The mechanical engineering team plans to increase the reliability and robustness of the base to ensure the robots mechanical functionality at outreach events, while the electrical engineering team aims for comprehensive documentation, safety reviews, and complete schematic diagrams. These documents will ensure a smooth transition to the next team that works on the project. The computer engineering team will ensure the safety of bystanders and the robot by using obstacle detection. It is important to note that obstacle detection is not intended to be used for navigation purposes. The software should successfully follow a specified ‘fetching’ object, while retrieval of the object is not initially planned due to its inherent mechanical complexities. Lastly, by E-Days everyone on the team should be able to explain the major aspects of the robot encompassing the mechanical systems, electronic integrations, software stack, and the synergy of the whole system.</p>
                             </v-list-item-content>
                         </v-list-item>
 
                         <v-list-item three-line>
                             <v-list-item-content>
                                 <v-list-item-title>
-                                    Meets budget requirements
+                                    Stretch Goals (Goals to be Added if All Other Goals are completed)
                                 </v-list-item-title>
-
-                                <v-list-item-subtitle class="ml-4">
-                                    Cost for team remains below the allocated amount described in budget section of this plan
-                                </v-list-item-subtitle>
+                                <p class="ml-8">Stretch goals for the project includes achieving more advanced capabilities like having a slower walk cycle (longer time between footfalls) and picking up and returning a thrown ball. Additionally, there is a goal to have the robot dance and walk around at various school events like a basketball game. The purpose of going to events would be to raise awareness for the ECE Outreach program and possibly fundraise. If time is allotted, we would also like to investigate the ability for the robot to respond to visual hand movements or voice commands to direct it to do different operations. </p>
 
                             </v-list-item-content>
                         </v-list-item>
@@ -239,7 +215,7 @@
                         src: require('../assets/gallery/oscilloscope_with_EIR.jpg'),
                     },
                     {
-                        src: require('../assets/year2/team_full.jpg'),
+                        src: require('../assets/year3/year3_full.jpg'),
                     },
 
                 ],
