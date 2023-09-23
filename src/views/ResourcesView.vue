@@ -47,24 +47,6 @@
                     </v-list-item-content>
                 </v-list-item>
 
-                <v-list-item>
-                    <v-list-item-content>
-                        <a href="Year_2_RamBots_Project_Plan.pdf" open
-                           class="text-decoration-none text-h5">Year 2's Project Plan</a>
-                           <v-list-item-subtitle class="ml-4">Preliminary planning (9/13/2022)</v-list-item-subtitle>
-                    </v-list-item-content>
-                </v-list-item>
-
-                <v-list-item>
-                    <v-list-item-content>
-                        <a href="Year_2_RamBots_Mid_Report.pdf" open
-                           class="text-decoration-none text-h5">Year 2's Project Mid Report</a>
-                           <v-list-item-subtitle class="ml-4">1st semester progress report (12/10/2022)</v-list-item-subtitle>
-                    </v-list-item-content>
-                </v-list-item>
-                <v-spacer></v-spacer>
-
-
             </v-card>
         </v-col>
 
