@@ -213,7 +213,7 @@
                         src: require('../assets/year3/headshots/anna_biolchini.jpg'), 
                         flex: 6, 
                         linkedin: "https://www.linkedin.com/in/anna-biolchini/", 
-                        text: "I am a senior studying Electricla Engineering and I am a co-captain of the RamBOTs team. I am interseted in aerospace, circuit design and analysis, control systems, and pushing technology further. In my free time, I love to hike, read, and try new things." 
+                        text: "I am a senior studying Electrical Engineering and I am a co-captain of the RamBOTs team. I am interseted in aerospace, circuit design and analysis, control systems, and pushing technology further. In my free time, I love to hike, read, and try new things." 
                     },
                     {
                         title: 'Elaine Smith', 
