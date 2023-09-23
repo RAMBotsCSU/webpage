@@ -79,8 +79,8 @@
             <v-col :cols="this.mobile ? 12 : 8">
                 <v-card  outlined  class="mb-4">
                     <v-card-text>
-                        <div>About Us</div>
-                        <p class="text-h4 text--primary mt-0">
+                        <div class="text-h3 text--primary mt-0">About Us</div>
+                        <p class="text-h4 text--primary mt-4">
                             Project Summary
                         </p>
                         <p>
@@ -108,42 +108,40 @@
                         <p>
                             These tasks are challenging, so we have a range of supporting tasks, including documentation, simulation, and stress tests, which are equally essential. These tasks will not only enhance the robot's functionality but also provide valuable insights for the next year's team as they embark on further improvements.
                         </p>
-                        <p class="text-h4 text--primary  mt-12">
+                        <p class="text-h4 text--primary mt-12">
                             Goals
                         </p>
                         <p>
                             The primary objectives of the RamBOTs project can be categorized into short, medium, and long-term goals. These objectives are designed to guide the project's development and measure its success using SMART criteria: Specific, Measurable, Achievable, Realistic, and Timely.
                         </p>
-                        <v-list-item>
-                            <v-list-item-content>
-                                <v-list-item-title>Short-Term Goals (Complete in Less Than A Month)</v-list-item-title>
-                                    <p class="ml-8">In the initial phase, the team's objectives are to familiarize themselves with the project's history and get the robot up and running for basic functionality. This includes ensuring the robot can perform standard procedures like those during last year’s E-Days and move each leg individually for stress testing. Additionally, the mechanical team plans to build a fifth leg for testing and a stand for the robot. This leg will be useful in understanding specific kinematics of the robot and will help the team with later goal items such as fine tuning movement (see Medium-Term Goals). For the electrical and computer engineering teams, the goal is to enhance the robot's recognition abilities by understanding the existing code, training a machine learning algorithm, and implementing a LiDAR sensor to detect objects within 1 foot. The team would also like to address some safety issues, such as exposed wire connections, accessibility and treatment of the batteries, and lack of safety procedures. </p>
-                            </v-list-item-content>
-                        </v-list-item>
 
-                        <v-list-item three-line>
-                            <v-list-item-content>
-                                <v-list-item-title>Medium Term Goals (Complete Within the First Semester)</v-list-item-title>
-                                    <p class="ml-8">In the medium term, the project aims to make progress towards more advanced capabilities. This includes getting the robot to walk on an uneven concrete surface, and quantifying its performance limits. The goal is to have the robot run for 20 minutes at a time and consistently operate on a 5 percent grade. Mechanical engineering will focus on simulation and stress testing of the legs which includes having a physical leg model for testing as well as a versatile Finite Element Analysis (FEA) simulation model. FEA simulation will be considered complete when the full model (as well as individual components of interest) have accessible and editable project files with clearly defined attributes such as tensile, shear and compression strengths. Meanwhile, the computer and electrical engineering teams will work on object recognition and tracking (increasing the size of our training set for specific objects), measuring the amount of current going to each motor, and self-tests for motors and ODESCs. Safety reviews and documentation of wiring are also planned.</p>
-                            </v-list-item-content>
-                        </v-list-item>
+                        <div class="text-h5 text--primary mt-10">
+                            Short-Term Goals (Complete in Less Than A Month) 
+                        </div>
+                        <p class="mt-2">
+                            In the initial phase, the team's objectives are to familiarize themselves with the project's history and get the robot up and running for basic functionality. This includes ensuring the robot can perform standard procedures like those during last year’s E-Days and move each leg individually for stress testing. Additionally, the mechanical team plans to build a fifth leg for testing and a stand for the robot. This leg will be useful in understanding specific kinematics of the robot and will help the team with later goal items such as fine tuning movement (see Medium-Term Goals). For the electrical and computer engineering teams, the goal is to enhance the robot's recognition abilities by understanding the existing code, training a machine learning algorithm, and implementing a LiDAR sensor to detect objects within 1 foot. The team would also like to address some safety issues, such as exposed wire connections, accessibility and treatment of the batteries, and lack of safety procedures. 
+                        </p>
 
-                        <v-list-item three-line>
-                            <v-list-item-content>
-                                <v-list-item-title>Long-Term Goals (Complete by E-Days/End of 2nd Semester)</v-list-item-title>
-                                    <p class="ml-8">By E-Days, the team envisions the robot being able to play fetch, follow a person using various commands, and increase bystander engagement through enhancing the interactive aspects of the project. The mechanical engineering team plans to increase the reliability and robustness of the base to ensure the robots mechanical functionality at outreach events, while the electrical engineering team aims for comprehensive documentation, safety reviews, and complete schematic diagrams. These documents will ensure a smooth transition to the next team that works on the project. The computer engineering team will ensure the safety of bystanders and the robot by using obstacle detection. It is important to note that obstacle detection is not intended to be used for navigation purposes. The software should successfully follow a specified ‘fetching’ object, while retrieval of the object is not initially planned due to its inherent mechanical complexities. Lastly, by E-Days everyone on the team should be able to explain the major aspects of the robot encompassing the mechanical systems, electronic integrations, software stack, and the synergy of the whole system.</p>
-                            </v-list-item-content>
-                        </v-list-item>
+                        <div class="text-h5 text--primary mt-10">
+                            Medium Term Goals (Complete Within the First Semester)
+                        </div>
+                        <p class="mt-2">
+                            In the medium term, the project aims to make progress towards more advanced capabilities. This includes getting the robot to walk on an uneven concrete surface, and quantifying its performance limits. The goal is to have the robot run for 20 minutes at a time and consistently operate on a 5 percent grade. Mechanical engineering will focus on simulation and stress testing of the legs which includes having a physical leg model for testing as well as a versatile Finite Element Analysis (FEA) simulation model. FEA simulation will be considered complete when the full model (as well as individual components of interest) have accessible and editable project files with clearly defined attributes such as tensile, shear and compression strengths. Meanwhile, the computer and electrical engineering teams will work on object recognition and tracking (increasing the size of our training set for specific objects), measuring the amount of current going to each motor, and self-tests for motors and ODESCs. Safety reviews and documentation of wiring are also planned.
+                        </p>
+                            
+                        <div class="text-h5 text--primary mt-10">
+                            Long-Term Goals (Complete by E-Days/End of 2nd Semester)
+                        </div>
+                        <p class="mt-2">
+                            By E-Days, the team envisions the robot being able to play fetch, follow a person using various commands, and increase bystander engagement through enhancing the interactive aspects of the project. The mechanical engineering team plans to increase the reliability and robustness of the base to ensure the robots mechanical functionality at outreach events, while the electrical engineering team aims for comprehensive documentation, safety reviews, and complete schematic diagrams. These documents will ensure a smooth transition to the next team that works on the project. The computer engineering team will ensure the safety of bystanders and the robot by using obstacle detection. It is important to note that obstacle detection is not intended to be used for navigation purposes. The software should successfully follow a specified ‘fetching’ object, while retrieval of the object is not initially planned due to its inherent mechanical complexities. Lastly, by E-Days everyone on the team should be able to explain the major aspects of the robot encompassing the mechanical systems, electronic integrations, software stack, and the synergy of the whole system.
+                        </p>
 
-                        <v-list-item three-line>
-                            <v-list-item-content>
-                                <v-list-item-title>
-                                    Stretch Goals (Goals to be Added if All Other Goals are completed)
-                                </v-list-item-title>
-                                <p class="ml-8">Stretch goals for the project includes achieving more advanced capabilities like having a slower walk cycle (longer time between footfalls) and picking up and returning a thrown ball. Additionally, there is a goal to have the robot dance and walk around at various school events like a basketball game. The purpose of going to events would be to raise awareness for the ECE Outreach program and possibly fundraise. If time is allotted, we would also like to investigate the ability for the robot to respond to visual hand movements or voice commands to direct it to do different operations. </p>
-
-                            </v-list-item-content>
-                        </v-list-item>
+                        <div class="text-h5 text--primary mt-10">
+                            Stretch Goals (Goals to be Added if All Other Goals are completed)
+                        </div>
+                        <p class="mt-2">
+                            Stretch goals for the project includes achieving more advanced capabilities like having a slower walk cycle (longer time between footfalls) and picking up and returning a thrown ball. Additionally, there is a goal to have the robot dance and walk around at various school events like a basketball game. The purpose of going to events would be to raise awareness for the ECE Outreach program and possibly fundraise. If time is allotted, we would also like to investigate the ability for the robot to respond to visual hand movements or voice commands to direct it to do different operations. 
+                        </p>
 
                     </v-card-text>
 
