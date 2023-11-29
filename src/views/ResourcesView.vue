@@ -14,7 +14,7 @@
 
                 <v-list-item class="mt-8">
                     <v-list-item-content>
-                        <a href="https://github.com/eppercin/rambots_website"
+                        <a href="https://github.com/XRobots/openDogV3"
                            class="text-decoration-none text-h5">James Bruton's openDogV3</a>
                         <v-list-item-subtitle class="ml-4">Source of original mechanical design</v-list-item-subtitle>
                     </v-list-item-content>
