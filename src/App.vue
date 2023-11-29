@@ -93,7 +93,7 @@
              cols="12">
           <a href="https://advancing.colostate.edu/ENG/ECE_SRDESIGN/GIVE"
              class="white--text text-decoration-underline">Support our program</a> —
-          <a href="https://www.engr.colostate.edu/ece/senior-design/?ay=2022"
+          <a href="https://www.engr.colostate.edu/ece/senior-design/?ay=2023"
              class="white--text text-decoration-underline">Other ECE Sr. Design projects</a> —
           <a href="https://www.engr.colostate.edu/ece/"
              class="white--text text-decoration-underline">ECE Department</a> —
