@@ -268,7 +268,7 @@
                     },
                     {
                         title: 'Caleb Costigan',
-                        src: require('../assets/year3/headshots/caleb_costigan.png'),
+                        src: require('../assets/year3/headshots/caleb_costigan.jpg'),
                         flex: 6,
                         resume: './resumes/caleb_costigan.pdf',
                         email: 'calebcostigan@gmail.com',
