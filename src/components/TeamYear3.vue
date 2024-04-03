@@ -258,6 +258,15 @@
                         text: "I am a senior in Computer Engineering with a minor in Computer Science. I am interested in software development and the design and implementation of embedded systems. Outside of work, I enjoy playing video games, listening to music, and playing with my dog, Rocket."
                     },
                     {
+                        title: 'McKenzy Johnson',
+                        src: require('../assets/year3/headshots/mckenzy_johnson.png'),
+                        flex: 6,
+                        resume: './resumes/mckenzy_johnson.pdf',
+                        linkedin: "https://www.linkedin.com/in/mckenzy-johnson-2881751a5",
+                        email: 'mckenzypaige@gmail.com',
+                        text: "I am a junior in Computer Engineering with a minor in Machine Learning. I am pursuing a career in embedded systems and integrating AI to improve and develop effective airborne and defense technology. In my free time, I enjoy hiking, spearfishing, soccer, snowboarding, and generally being outdoors."
+                    },
+                    {
                         title: 'Jacob Beauchamp',
                         src: require('../assets/year3/headshots/jacob_beauchamp.png'),
                         flex: 6,
@@ -291,15 +300,6 @@
                         linkedin: "https://www.linkedin.com/in/joseph-reback-54327b250", 
                         email: 'jreback@colostate.edu',
                         text: "I'm a sophomore in Computer Engineering at CSU. I'm interested in working in robotics, aerospace, and embedded systems. I'm a huge Colorado sports fan and in my free time I like running, electronics repair, and backpacking." 
-                    },
-                    {
-                        title: 'McKenzy Johnson',
-                        src: require('../assets/year3/headshots/mckenzy_johnson.png'),
-                        flex: 6,
-                        resume: './resumes/mckenzy_johnson.pdf',
-                        linkedin: "https://www.linkedin.com/in/mckenzy-johnson-2881751a5",
-                        email: 'mckenzypaige@gmail.com',
-                        text: "I am a junior in Computer Engineering with a minor in Machine Learning. I am pursuing a career in embedded systems and integrating AI to improve and develop effective airborne and defense technology. In my free time, I enjoy hiking, spearfishing, soccer, snowboarding, and generally being outdoors."
                     },
                     { title: 'b', src: require('../assets/placeholder.jpg'), flex: 6 },
                 ]
