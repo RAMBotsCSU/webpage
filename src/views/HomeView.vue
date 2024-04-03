@@ -15,7 +15,7 @@
                                 <v-row >
                                     <v-spacer></v-spacer>
                                 <v-btn text class="mt-0"
-                                       href="https://projects-web.engr.colostate.edu/ece-sr-design/AY21/outreach/"
+                                       href="https://projects-web.engr.colostate.edu/ece-sr-design/AY23/outreach/"
                                        target="_blank">
                                     An ECE Outreach Project<v-icon right>
                                         mdi-link
