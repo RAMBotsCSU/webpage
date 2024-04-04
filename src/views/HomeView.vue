@@ -57,7 +57,7 @@
             </v-col>
             <v-col :cols="this.mobile ? 12 : 7">
                 <v-card class="pa-2" outlined color="transparent">
-                    <v-carousel :height="this.mobile ? 300 : 700" width="500px">
+                    <v-carousel :height="this.mobile ? 300 : 513" width="500px">
                         <v-carousel-item reverse-transition="fade-transition"
                                          transition="fade-transition"
                                          v-for="(item, i) in items"
@@ -210,7 +210,7 @@
                         src: require('../assets/year3/gallery/goodPhotos/meeting.jpeg'),
                     },
                     {
-                        src: require('../assets/year3/gallery/goodPhotos/sam_touching_5th_leg.jpeg'),
+                        src: require('../assets/year3/gallery/goodPhotos/smile.jpeg'),
                     },
                     {
                         src: require('../assets/year3/team/year3_full.jpg'),
