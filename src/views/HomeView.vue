@@ -204,13 +204,13 @@
                 url: "https://projects-web.engr.colostate.edu/ece-sr-design/AY23/outreach/",
                 items: [
                     {
-                        src: require('../assets/gallery/rambot_standing.jpg'),
+                        src: require('../assets/year3/gallery/goodPhotos/rambotMewing.jpeg'),
                     },
                     {
-                        src: require('../assets/gallery/assembling_the_bot.jpg'),
+                        src: require('../assets/year3/gallery/goodPhotos/meeting.jpeg'),
                     },
                     {
-                        src: require('../assets/gallery/oscilloscope_with_EIR.jpg'),
+                        src: require('../assets/year3/gallery/goodPhotos/sam_touching_5th_leg.jpeg'),
                     },
                     {
                         src: require('../assets/year3/team/year3_full.jpg'),
