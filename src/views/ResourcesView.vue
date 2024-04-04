@@ -49,9 +49,17 @@
 
                 <v-list-item>
                     <v-list-item-content>
-                        <a href="https://projects-web.engr.colostate.edu/ece-sr-design/AY23/RamBOTs/Year_3_Rambots_Project_Plan.pdf" open
-                           class="text-decoration-none text-h5">Year 3's Project Plan</a>
-                           <v-list-item-subtitle class="ml-4">Preliminary planning (9/22/2023)</v-list-item-subtitle>
+                        <a href="https://projects-web.engr.colostate.edu/ece-sr-design/AY23/RamBOTs/Year_3_Rambots_Mid_Report.pdf" open
+                           class="text-decoration-none text-h5">Year 3's Mid-Semester Report</a>
+                           <v-list-item-subtitle class="ml-4">End of Fall Semester Report (12/13/2023)</v-list-item-subtitle>
+                    </v-list-item-content>
+                </v-list-item>
+
+                <v-list-item>
+                    <v-list-item-content>
+                        <a href="https://projects-web.engr.colostate.edu/ece-sr-design/AY22/RamBOTs" open
+                           class="text-decoration-none text-h5">RamBOTs 2022-2023 Team's Website</a>
+                           <v-list-item-subtitle class="ml-4">Check out the previous year's website!</v-list-item-subtitle>
                     </v-list-item-content>
                 </v-list-item>
 
