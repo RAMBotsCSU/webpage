@@ -41,9 +41,17 @@
                 
                 <v-list-item>
                     <v-list-item-content>
-                        <a href="Year_3_RamBots_Project_Plan.pdf" open
+                        <a href="https://projects-web.engr.colostate.edu/ece-sr-design/AY23/RamBOTs/Year_3_Rambots_Project_Plan.pdf" open
                            class="text-decoration-none text-h5">Year 3's Project Plan</a>
-                           <v-list-item-subtitle class="ml-4">Preliminary planning (9/22/2022)</v-list-item-subtitle>
+                           <v-list-item-subtitle class="ml-4">Preliminary planning (9/22/2023)</v-list-item-subtitle>
+                    </v-list-item-content>
+                </v-list-item>
+
+                <v-list-item>
+                    <v-list-item-content>
+                        <a href="https://projects-web.engr.colostate.edu/ece-sr-design/AY23/RamBOTs/Year_3_Rambots_Project_Plan.pdf" open
+                           class="text-decoration-none text-h5">Year 3's Project Plan</a>
+                           <v-list-item-subtitle class="ml-4">Preliminary planning (9/22/2023)</v-list-item-subtitle>
                     </v-list-item-content>
                 </v-list-item>
 
