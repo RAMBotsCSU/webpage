@@ -213,7 +213,7 @@
                         src: require('../assets/gallery/oscilloscope_with_EIR.jpg'),
                     },
                     {
-                        src: require('../assets/year3/year3_full.jpg'),
+                        src: require('../assets/year3/team/year3_full.jpg'),
                     },
 
                 ],

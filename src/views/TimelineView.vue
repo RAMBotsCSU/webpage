@@ -14,11 +14,11 @@
                 <p class="text-h4 text--primary mt-4">
                     2023-2024 Team's Semester 1 Timeline
                 </p>
-                <v-img contains class="ma-4" :src="require('../assets/year3/Year_3_Timeline_Sem1.png')"></v-img>
+                <v-img contains class="ma-4" :src="require('../assets/year3/team/Year_3_Timeline_Sem1.png')"></v-img>
                 <p class="text-h4 text--primary mt-4">
                     2023-2024 Team's Semester 2 Timeline
                 </p>
-                <v-img contains class="ma-4" :src="require('../assets/year3/Year_3_Timeline_Sem2.png')"></v-img>
+                <v-img contains class="ma-4" :src="require('../assets/year3/team/Year_3_Timeline_Sem2.png')"></v-img>
                 <p>
                     The 2023-2024 team intends to first improve the startup process of the robot and ensure that it works properly and more reliably compared to last year. We plan to build upon the design by creating a way for it to walk on uneven surfaces and have better balance overall. This year’s team also has three mechanical engineers compared to the two that were involved last year, which will allow for more reevaluation or even reconstruction, as a few of the parts have become worn over the years.
                 </p>

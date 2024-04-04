@@ -116,7 +116,7 @@
         <v-container fluid>
             <v-layout justify-center align-center>
                 <v-flex shrink>
-                    <v-img width="1200px" class="mt-4 elevation-2" :src="require('../assets/year3/year3_full.jpg')"></v-img>
+                    <v-img width="1200px" class="mt-4 elevation-2" :src="require('../assets/year3/team/year3_full.jpg')"></v-img>
                 </v-flex>
             </v-layout>
         </v-container>
@@ -186,7 +186,7 @@
         </v-row>
         <v-row>
             <v-col lass="text-center d-flex justify-space-around" cols="12">
-                <v-img width="400" class="mt-4 elevation-2" :src="require('../assets/year3/year3_full.jpg')"></v-img>
+                <v-img width="400" class="mt-4 elevation-2" :src="require('../assets/year3/team/year3_full.jpg')"></v-img>
             </v-col>
         </v-row>
      
