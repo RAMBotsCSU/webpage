@@ -1,11 +1,14 @@
 <template>
 
-
-    
     <v-card v-if="!this.mobile" outlined color="transparent" :max-width="1500" elevation="0" class="pa-8 ma-4">
 
         <v-row class="text-center">
-
+            <v-col class="font-weight-medium text-h4 text-center mt-4">
+                <span style="text-decoration: underline;">Seniors</span>
+            </v-col>
+        </v-row>
+    
+        <v-row class="text-center">
             <v-col class="text-center d-flex justify-space-around"
                    v-for="card in cards"
                    :key="card.title"
@@ -47,7 +50,12 @@
         </v-row>
 
         <v-row class="text-center">
+            <v-col class="font-weight-medium text-h4 text-center mt-4">
+                <span style="text-decoration: underline;">VIPs</span>
+            </v-col>
+        </v-row>
 
+        <v-row class="text-center">
             <v-col class="text-center d-flex justify-center"
                    v-for="card in VIPS"
                    :key="card.title">
