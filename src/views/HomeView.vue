@@ -201,7 +201,7 @@
                 logo: require('../assets/gallery/chassis.jpg'),
                 youtube: require('../assets/youtube_logo.png'),
                 mobile: false,
-                url: "https://projects-web.engr.colostate.edu/ece-sr-design/AY21/outreach/",
+                url: "https://projects-web.engr.colostate.edu/ece-sr-design/AY23/outreach/",
                 items: [
                     {
                         src: require('../assets/gallery/rambot_standing.jpg'),

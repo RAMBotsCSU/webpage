@@ -50,7 +50,7 @@
                 mobile: false,
                 logo: require('../assets/gallery/chassis.jpg'),
                 tab: null,
-                url: "https://projects-web.engr.colostate.edu/ece-sr-design/AY21/outreach/",
+                url: "https://projects-web.engr.colostate.edu/ece-sr-design/AY23/outreach/",
 
             }
         },
