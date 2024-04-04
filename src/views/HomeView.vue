@@ -57,7 +57,7 @@
             </v-col>
             <v-col :cols="this.mobile ? 12 : 7">
                 <v-card class="pa-2" outlined color="transparent">
-                    <v-carousel :height="this.mobile ? 300 : 700" width="500px">
+                    <v-carousel :height="this.mobile ? 300 : 513" width="500px">
                         <v-carousel-item reverse-transition="fade-transition"
                                          transition="fade-transition"
                                          v-for="(item, i) in items"
@@ -201,19 +201,19 @@
                 logo: require('../assets/gallery/chassis.jpg'),
                 youtube: require('../assets/youtube_logo.png'),
                 mobile: false,
-                url: "https://projects-web.engr.colostate.edu/ece-sr-design/AY21/outreach/",
+                url: "https://projects-web.engr.colostate.edu/ece-sr-design/AY23/outreach/",
                 items: [
                     {
-                        src: require('../assets/gallery/rambot_standing.jpg'),
+                        src: require('../assets/year3/gallery/goodPhotos/rambotMewing.jpeg'),
                     },
                     {
-                        src: require('../assets/gallery/assembling_the_bot.jpg'),
+                        src: require('../assets/year3/gallery/goodPhotos/meeting.jpeg'),
                     },
                     {
-                        src: require('../assets/gallery/oscilloscope_with_EIR.jpg'),
+                        src: require('../assets/year3/gallery/goodPhotos/smile.jpeg'),
                     },
                     {
-                        src: require('../assets/year3/year3_full.jpg'),
+                        src: require('../assets/year3/team/year3_full.jpg'),
                     },
 
                 ],
