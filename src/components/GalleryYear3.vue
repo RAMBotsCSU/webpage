@@ -39,7 +39,7 @@
 
 
 
-        <p class="font-weight-medium text-h4 text--primary mt-12 text-center">Videos</p>
+        <p class="font-weight-medium text-h4 text--primary mt-12 text-center">Events</p>
         <v-row class="text-center mb-12">
             <v-col class="text-center d-flex justify-space-around"
                    v-for="card in art"
@@ -95,7 +95,7 @@
                 mobile: false,
                 logo: require('../assets/gallery/chassis.jpg'),
                 testing: [
-                    { title: 'Preparing to walk', src: require('../assets/gallery/preparing_to_walk.jpg'), flex: 4 },
+                    { title: 'Sam with the Fifth Leg', src: require('../assets/year3/gallery/construction/sam_touching_5th_leg.jpeg'), flex: 4 },
                     { title: 'Walking on the stand', src: require('../assets/gallery/walking_on_stand.jpg'), flex: 4 },
                     { title: 'Bot standing', src: require('../assets/gallery/rambot_standing.jpg'), flex: 4 },    
                     { title: 'Working on the robot', src: require('../assets/gallery/assembling_the_bot.jpg'), flex: 4 },
@@ -103,17 +103,12 @@
                     { title: 'Leg programming setup', src: require('../assets/gallery/leg_programming_setup.jpg'), flex: 4 },            
                 ],
                 construction: [
-                    { title: 'Chassis side view', src: require('../assets/gallery/chassis.jpg'), flex: 4 },
-                    { title: 'Chassis diagonal view', src: require('../assets/gallery/chassis2.jpg'), flex: 4 },
-                    { title: 'Assembling the robot', src: require('../assets/gallery/robot_assembly.jpg'), flex: 4 },
-                    { title: 'Programming the Pi', src: require('../assets/gallery/pi_programming.jpg'), flex: 4 },
-                    { title: 'Disassembling a leg for testing', src: require('../assets/gallery/leg_testing.jpg'), flex: 4 },
-                    { title: 'Meeting with EIR', src: require('../assets/gallery/eir_meeting.jpg'), flex: 4 },             
+                    { title: 'Disassembled', src: require('../assets/year3/gallery/construction/dissassembled.jpg'), flex: 4 },
+                    { title: 'Sam with the Fifth Leg', src: require('../assets/year3/gallery/construction/sam_touching_5th_leg.jpeg'), flex: 4 },        
                 ],
-                vidoes: [
-                    { title: 'Logos by Gwyn Tari', src: require('../assets/gallery/RamLogoLarge.png'), flex: 4 },
-                    { title: ' ', src: require('../assets/gallery/RamLogoMed.png'), flex: 4 },
-                    { title: '', src: require('../assets/gallery/RamLogoSmall.png'), flex: 4 },
+                events: [
+                    { title: 'Sparky meeting President Amy Parsons', src: require('../assets/year3/gallery/events/sparky_meets_amy_parsons.jpg'), flex: 4 },
+                    { title: 'Sparky meeting Cam the Ram', src: require('../assets/year3/gallery/events/sparky_meets_cam.jpg'), flex: 4},
                 ],
                 team: [
                     { title: 'Year 3 Team Seniors', src: require('../assets/year3/team/year3_seniors.jpg'), flex: 6 },
