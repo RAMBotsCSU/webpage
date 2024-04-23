@@ -1,94 +1,57 @@
 <template>
 
- <v-card color="white" elevation="2" class="pa-8 ma-4">
-
-<p class="font-weight-medium text-h4 text--primary mt-4 text-center">Video Gallery</p>
-<v-row class="text-center mb-12">
-    <v-col class="text-center d-flex justify-space">
-            <video-embed elevation="1" src="https://youtu.be/lGujzt1vstc"></video-embed>
-    </v-col>
-    <v-col class="text-center d-flex justify-space-around">
-            <video-embed elevation="1" src="https://youtu.be/Tb1ysV0rtFo"></video-embed>
-    </v-col>
-    <v-col class="text-center d-flex justify-space-around">
-            <video-embed elevation="1" src="https://youtu.be/XzEjYknNzUg"></video-embed>
-    </v-col>
-    <v-col class="text-center d-flex justify-space-around">
-            <video-embed elevation="1" src="https://www.youtube.com/watch?v=xvF6pBuC2yg"></video-embed>
-    </v-col>
-    <v-col class="text-center d-flex justify-space-around">
-            <video-embed elevation="1" src="https://youtu.be/0eQwpkMz9T8"></video-embed>
-    </v-col>
-</v-row>
-<v-row class="text-center mb-12">
-    <v-col class="text-center d-flex justify-space">
-        <video-embed elevation="1" src="https://youtu.be/nPgpwkBiq1I"></video-embed>
-    </v-col>
-    <v-col class="text-center d-flex justify-space-around">
-<video-embed elevation="1" src="https://youtu.be/aV50ot9t3os"></video-embed>
-    </v-col>
-    <v-col class="text-center d-flex justify-space-around">
-        <video-embed elevation="1" src="https://www.youtube.com/watch?v=XT73xWqmi78&ab_channel=RamBOTs"></video-embed>
-    </v-col>
-    <v-col class="text-center d-flex justify-space-around">
-        <video-embed elevation="1" src="https://www.youtube.com/watch?v=Lt--0nAPuSA&ab_channel=RamBOTs"></video-embed>
-    </v-col>
-        <v-col class="text-center d-flex justify-space-around">
-            <video-embed elevation="1" src="https://www.youtube.com/watch?v=noQQGqFBcIw&ab_channel=RamBOTs"></video-embed>
-    </v-col>
-</v-row>
-<v-row class="text-center mb-12">
-    <v-col class="text-center d-flex justify-space">
-        <video-embed elevation="1" src="https://youtu.be/axCfKZ4Z-Ik"></video-embed>
-    </v-col>
-    <v-col class="text-center d-flex justify-space-around">
-        <video-embed elevation="1" src="https://youtu.be/343kp-O3OiQ"></video-embed>
-    </v-col>
-    <v-col class="text-center d-flex justify-space-around">
-        <v-sheet color="grey lighten-3" elevation="1" height="150" width="300"></v-sheet>
-    </v-col>
-    <v-col class="text-center d-flex justify-space-around">
-        <v-sheet color="grey lighten-3" elevation="1" height="150" width="300"></v-sheet>
-    </v-col>
-        <v-col class="text-center d-flex justify-space-around">
-            <v-sheet color="grey lighten-3" elevation="1" height="150" width="300"></v-sheet>
-    </v-col>
-</v-row>
 
 
-</v-card>
+    <v-row>
+        <v-col cols="1">
+            <v-spacer></v-spacer>
+        </v-col>
+        <v-col cols="this.mobile ? 12 : 10" class="d-flex justify-center align-center">
+            <v-card max-width="1300px" class="mt-4 pa-4">
+                <v-tabs @change="console.log(tab)" v-model="tab" color="#1E4D2B">
+                    <v-tab >2023/2024</v-tab>
+                    <v-tab >2022/2023</v-tab>
+                </v-tabs>
+                <v-divider></v-divider>
+                <v-card outlined color="transparent" class="d-flex justify-center align-center">
+                    <videosYear3 v-if="tab == 0" />
+                    <videosYear2 v-if="tab == 1" />
+                </v-card>
+            </v-card>
+        </v-col>
 
+        <v-col cols="1">
+            <v-spacer></v-spacer>
+        </v-col>
+    </v-row>
+
+
+   
 
 </template>
 
 <script>
-
+    import videosYear2 from '../components/VideosYear2.vue'
+    import videosYear3 from '../components/VideosYear3.vue'
     export default {
         mounted() {
             this.mobile = window.innerWidth <= 760
+        },
+        computed: {
+            console: () => console,
+            window: () => window,
+        },
+        components: {
+            videosYear2,
+            videosYear3
         },
         data() {
             return {
                 mobile: false,
                 logo: require('../assets/gallery/chassis.jpg'),
-                construction: [
-                    { title: 'Chassis side view', src: require('../assets/gallery/chassis.jpg'), flex: 4 },
-                    { title: 'Chassis diagonal view', src: require('../assets/gallery/chassis2.jpg'), flex: 4 },
-                    { title: 'Assembling the robot', src: require('../assets/gallery/robot_assembly.jpg'), flex: 4 },
-                    { title: 'Programming the Pi', src: require('../assets/gallery/pi_programming.jpg'), flex: 4 },
-                    { title: 'Disassembling a leg for testing', src: require('../assets/gallery/leg_testing.jpg'), flex: 4 },
-                    { title: 'Meeting with EIR', src: require('../assets/gallery/eir_meeting.jpg'), flex: 4 },
-                ],
-                art: [
-                    { title: 'Logos by Gwyn Tari', src: require('../assets/gallery/RamLogoLarge.png'), flex: 4 },
-                    { title: ' ', src: require('../assets/gallery/RamLogoMed.png'), flex: 4 },
-                    { title: '', src: require('../assets/gallery/RamLogoSmall.png'), flex: 4 },
-                ],
-                team: [
-                    { title: 'Team Seniors', src: require('../assets/team_seniors.jpg'), flex: 6 },
-                    { title: 'Full Team', src: require('../assets/year2/team_full.jpg'), flex: 6 },
+                tab: null,
+                url: "https://projects-web.engr.colostate.edu/ece-sr-design/AY23/outreach/",
 
-                ],
             }
         },
     }</script>
