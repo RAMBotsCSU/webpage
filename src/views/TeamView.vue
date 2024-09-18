@@ -1,7 +1,5 @@
 <template>
 
-
-
     <v-row>
         <v-col cols="1">
             <v-spacer></v-spacer>
@@ -9,15 +7,17 @@
         <v-col cols="this.mobile ? 12 : 10" class="d-flex justify-center align-center">
             <v-card max-width="1500px" class="mt-4 pa-4">
                 <v-tabs @change="console.log(tab)" v-model="tab" color="#1E4D2B">
+                    <v-tab >2024/2025</v-tab>
                     <v-tab >2023/2024</v-tab>
                     <v-tab >2022/2023</v-tab>
                     <v-tab >2021/2022</v-tab>
                 </v-tabs>
                 <v-divider></v-divider>
                 <v-card outlined color="transparent" class="d-flex justify-center align-center">
-                    <TeamYear3 v-if="tab == 0" />
-                    <TeamYear2 v-if="tab == 1" />
-                    <TeamYear1 v-if="tab == 2" />
+                    <TeamAY24 v-if="tab == 0" />
+                    <TeamYear3 v-if="tab == 1" />
+                    <TeamYear2 v-if="tab == 2" />
+                    <TeamYear1 v-if="tab == 3" />
                 </v-card>
             </v-card>
         </v-col>
@@ -27,15 +27,13 @@
         </v-col>
     </v-row>
 
-
-   
-
 </template>
 
 <script>
     import TeamYear1 from '../components/TeamYear1.vue'
     import TeamYear2 from '../components/TeamYear2.vue'
     import TeamYear3 from '../components/TeamYear3.vue'
+    import TeamAY24 from '../components/TeamAY24.vue'
     export default {
         mounted() {
             this.mobile = window.innerWidth <= 760
@@ -47,7 +45,8 @@
         components: {
             TeamYear1,
             TeamYear2,
-            TeamYear3
+            TeamYear3,
+            TeamAY24,
         },
         data() {
             return {
@@ -58,4 +57,5 @@
 
             }
         },
-    }</script>
+    }
+</script>
