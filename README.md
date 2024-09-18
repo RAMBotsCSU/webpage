@@ -1,7 +1,7 @@
 # RamBOTs Webpage Repo
-                   
-This is the official CSU RamBOTS Webpage repository. 
-Visit us at our [website](https://projects-web.engr.colostate.edu/ece-sr-design/AY23/RamBOTs).
+
+This is the official CSU RamBOTS Webpage repository.
+Visit us at our [website](https://projects-web.engr.colostate.edu/ece-sr-design/AY24/RamBOTs).
 The RamBOTS webpage is a JavaScript app using the Vue.js front end framework and Vuetify component framework.
 
 
@@ -52,10 +52,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [Embedded video player](https://github.com/nasa8x/v-video-embed) by nasa8x
 
 ## How to Update Existing Webpages:
-- Modify the code at src/views/... 
+- Modify the code at src/views/...
 - Use **npm run serve** to see the changes you are making on your machine
 - Once complete, use **npm run build**. This will create the dist directory.
 - Remote Desktop into engr.colostate.edu. Navigate to /net/projects/ece-sr-design/www/AY2X/RamBOTs
 - Upload the contents of the dist directory. Wait a few minutes and the website should go live.
-
-
