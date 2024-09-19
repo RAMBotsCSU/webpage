@@ -21,19 +21,19 @@
                     </v-card>
 
                     <v-card-actions class="justify-center">
-                        <v-btn icon :disabled="card.resume == null" :href="card.resume" target="_blank">
+                        <v-btn icon v-if="card.resume" :href="card.resume" target="_blank">
                             <v-icon>mdi-file-account</v-icon>
                         </v-btn>
 
-                        <v-btn icon :disabled="card.email == null" :href="`mailto:${card.email}`" target="_blank">
+                        <v-btn icon v-if="card.email" :href="`mailto:${card.email}`" target="_blank">
                             <v-icon>mdi-email</v-icon>
                         </v-btn>
 
-                        <v-btn icon :disabled="card.linkedin == null" :href="card.linkedin" target="_blank">
+                        <v-btn icon v-if="card.linkedin" :href="card.linkedin" target="_blank">
                             <v-icon>mdi-linkedin</v-icon>
                         </v-btn>
 
-                        <v-btn icon :disabled="card.github == null" :href="`https://github.com/${card.github}`" target="_blank">
+                        <v-btn icon v-if="card.github" :href="`https://github.com/${card.github}`" target="_blank">
                             <v-icon>mdi-github</v-icon>
                         </v-btn>
                     </v-card-actions>
@@ -64,19 +64,19 @@
                     </v-card>
 
                     <v-card-actions class="justify-center">
-                        <v-btn icon :disabled="card.resume == null" :href="card.resume" target="_blank">
+                        <v-btn icon v-if="card.resume" :href="card.resume" target="_blank">
                             <v-icon>mdi-file-account</v-icon>
                         </v-btn>
 
-                        <v-btn icon :disabled="card.email == null" :href="`mailto:${card.email}`" target="_blank">
+                        <v-btn icon v-if="card.email" :href="`mailto:${card.email}`" target="_blank">
                             <v-icon>mdi-email</v-icon>
                         </v-btn>
 
-                        <v-btn icon :disabled="card.linkedin == null" :href="card.linkedin" target="_blank">
+                        <v-btn icon v-if="card.linkedin" :href="card.linkedin" target="_blank">
                             <v-icon>mdi-linkedin</v-icon>
                         </v-btn>
 
-                        <v-btn icon :disabled="card.github == null" :href="`https://github.com/${card.github}`" target="_blank">
+                        <v-btn icon v-if="card.github" :href="`https://github.com/${card.github}`" target="_blank">
                             <v-icon>mdi-github</v-icon>
                         </v-btn>
                     </v-card-actions>
