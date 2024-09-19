@@ -32,6 +32,10 @@
                         <v-btn icon :disabled="card.linkedin == null" :href="card.linkedin" target="_blank">
                             <v-icon>mdi-linkedin</v-icon>
                         </v-btn>
+
+                        <v-btn icon :disabled="card.github == null" :href="`https://github.com/${card.github}`" target="_blank">
+                            <v-icon>mdi-github</v-icon>
+                        </v-btn>
                     </v-card-actions>
 
 
@@ -70,6 +74,10 @@
 
                         <v-btn icon :disabled="card.linkedin == null" :href="card.linkedin" target="_blank">
                             <v-icon>mdi-linkedin</v-icon>
+                        </v-btn>
+
+                        <v-btn icon :disabled="card.github == null" :href="`https://github.com/${card.github}`" target="_blank">
+                            <v-icon>mdi-github</v-icon>
                         </v-btn>
                     </v-card-actions>
                 </v-card>
