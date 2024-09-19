@@ -10,36 +10,7 @@
 
         <v-row class="d-flex justify-center">
             <v-col class="d-flex justify-center" cols="4" v-for="card in cards" :key="card.title">
-
-                <v-card class="align-self-start" width="250px">
-                    <v-img :src="card.src" class="white--text align-end"
-                        gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.2)" height="300px">
-                        <v-card-title v-text="card.title"></v-card-title>
-                    </v-img>
-                    <v-card outlined color="transparent">
-                        <v-card-text class="grow text-left">{{ card.text }}</v-card-text>
-                    </v-card>
-
-                    <v-card-actions class="justify-center">
-                        <v-btn icon v-if="card.resume" :href="card.resume" target="_blank">
-                            <v-icon>mdi-file-account</v-icon>
-                        </v-btn>
-
-                        <v-btn icon v-if="card.email" :href="`mailto:${card.email}`" target="_blank">
-                            <v-icon>mdi-email</v-icon>
-                        </v-btn>
-
-                        <v-btn icon v-if="card.linkedin" :href="card.linkedin" target="_blank">
-                            <v-icon>mdi-linkedin</v-icon>
-                        </v-btn>
-
-                        <v-btn icon v-if="card.github" :href="`https://github.com/${card.github}`" target="_blank">
-                            <v-icon>mdi-github</v-icon>
-                        </v-btn>
-                    </v-card-actions>
-
-
-                </v-card>
+                <TeamMemberCard :card="card" />
             </v-col>
 
         </v-row>
@@ -121,34 +92,7 @@
     <v-card v-else outlined color="transparent">
         <v-row class="text-center mb-12 mt-2">
             <v-col class="text-center d-flex justify-space-around" v-for="card in cards" :key="card.title" cols="12">
-
-                <v-card width="250px">
-                    <v-img :src="card.src" class="white--text align-end"
-                        gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)" height="300px">
-                        <v-card-title v-text="card.title"></v-card-title>
-                    </v-img>
-                    <v-card outlined color="transparent" height="220px">
-
-                        <v-card-text class="grow text-left px-2 mt-2 mb-n2">{{ card.text }}</v-card-text>
-                    </v-card>
-
-                    <v-card-actions>
-
-
-                        <v-btn icon :disabled="card.resume == null">
-                            <v-icon>mdi-file-account</v-icon>
-                        </v-btn>
-
-                        <v-btn icon :disabled="card.email == null" :href="`mailto:${card.email}`" target="_blank">
-                            <v-icon>mdi-email</v-icon>
-                        </v-btn>
-
-                        <v-btn icon :disabled="card.linkedin == null" :href="card.linkedin">
-                            <v-icon>mdi-linkedin</v-icon>
-                        </v-btn>
-                    </v-card-actions>
-
-                </v-card>
+                <TeamMemberCard :card="card" />
             </v-col>
         </v-row>
         <v-row>
@@ -183,7 +127,12 @@
 </template>
 
 <script>
+import TeamMemberCard from '@/components/TeamMemberCard.vue';
+
 export default {
+    components: {
+        TeamMemberCard,
+    },
     mounted() {
         this.mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
         if (this.mobile) {
