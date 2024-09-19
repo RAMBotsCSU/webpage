@@ -1,6 +1,6 @@
 <template>
 
-    <v-card v-if="!this.mobile" outlined color="transparent" :max-width="1500" elevation="0" class="pa-8 ma-4">
+    <v-card outlined color="transparent" :max-width="1500" elevation="0" class="pa-8 ma-4">
 
         <v-row class="text-center">
             <v-col class="font-weight-medium text-h4 text-center mt-4">
@@ -12,7 +12,6 @@
             <v-col class="d-flex justify-center" cols="4" v-for="card in cards" :key="card.title">
                 <TeamMemberCard :card="card" />
             </v-col>
-
         </v-row>
 
         <v-row class="text-center">
@@ -23,81 +22,12 @@
 
         <v-row class="d-flex justify-center">
             <v-col class="d-flex justify-center" cols="4" v-for="card in VIPS" :key="card.title">
-
-                <v-card class="align-self-start" width="250px">
-                    <v-img :src="card.src" class="white--text align-end"
-                        gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)" height="300px">
-                        <v-card-title v-text="card.title"></v-card-title>
-                    </v-img>
-                    <v-card outlined color="transparent" height="220px">
-
-                        <v-card-text class="grow text-left">{{ card.text }}</v-card-text>
-                    </v-card>
-
-                    <v-card-actions class="justify-center">
-                        <v-btn icon v-if="card.resume" :href="card.resume" target="_blank">
-                            <v-icon>mdi-file-account</v-icon>
-                        </v-btn>
-
-                        <v-btn icon v-if="card.email" :href="`mailto:${card.email}`" target="_blank">
-                            <v-icon>mdi-email</v-icon>
-                        </v-btn>
-
-                        <v-btn icon v-if="card.linkedin" :href="card.linkedin" target="_blank">
-                            <v-icon>mdi-linkedin</v-icon>
-                        </v-btn>
-
-                        <v-btn icon v-if="card.github" :href="`https://github.com/${card.github}`" target="_blank">
-                            <v-icon>mdi-github</v-icon>
-                        </v-btn>
-                    </v-card-actions>
-                </v-card>
-
-            </v-col>
-
-        </v-row>
-
-        <v-row>
-            <v-col cols="3"><v-spacer></v-spacer></v-col>
-            <v-col cols="3">
-                <p class="text-center font-weight-light text-h4 text--primary mt-8">
-                    Advisor
-                </p>
-                <v-divider class="mt-n4 mb-2"></v-divider>
-                <p class="text-center font-weight-light">Olivera Notaros</p>
-            </v-col>
-
-            <v-col cols="3">
-                <p class="text-center font-weight-light text-h4 text--primary mt-8">
-                    Industry Members
-                </p>
-                <v-divider class="mt-n4 mb-2"></v-divider>
-                <p class="text-center font-weight-light">Jon Lotz</p>
-                <p class="text-center font-weight-light">Hugh Wallace</p>
-            </v-col>
-            <v-col cols="3"><v-spacer></v-spacer></v-col>
-        </v-row>
-
-        <v-container fluid>
-            <v-layout justify-center align-center>
-                <v-flex shrink>
-                    <v-img width="1200px" class="mt-4 elevation-2"
-                        :src="require('../assets/AY24/team_full.png')"></v-img>
-                </v-flex>
-            </v-layout>
-        </v-container>
-
-    </v-card>
-
-    <v-card v-else outlined color="transparent">
-        <v-row class="text-center mb-12 mt-2">
-            <v-col class="text-center d-flex justify-space-around" v-for="card in cards" :key="card.title" cols="12">
                 <TeamMemberCard :card="card" />
             </v-col>
         </v-row>
-        <v-row>
 
-            <v-col cols="6">
+        <v-row class="d-flex justify-space-around">
+            <v-col cols="3">
                 <p class="text-center font-weight-light text-h4 text--primary mt-8">
                     Advisor
                 </p>
@@ -105,20 +35,13 @@
                 <p class="text-center font-weight-light">Olivera Notaros</p>
             </v-col>
 
-            <v-col cols="6">
+            <v-col cols="3">
                 <p class="text-center font-weight-light text-h4 text--primary mt-8">
                     Industry Members
                 </p>
                 <v-divider class="mt-n4 mb-2"></v-divider>
                 <p class="text-center font-weight-light">Jon Lotz</p>
-                <p class="text-center font-weight-light">Bill Hudson</p>
                 <p class="text-center font-weight-light">Hugh Wallace</p>
-            </v-col>
-        </v-row>
-        <v-row>
-            <v-col lass="text-center d-flex justify-space-around" cols="12">
-                <v-img width="400" class="mt-4 elevation-2"
-                    :src="require('../assets/year3/team/year3_full.jpg')"></v-img>
             </v-col>
         </v-row>
 
