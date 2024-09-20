@@ -70,7 +70,7 @@ export default {
             cards: [
                 {
                     title: 'McKenzy Johnson',
-                    src: require('../assets/AY24/headshots/mckenzy_johnson.jpg'),
+                    src: require('../assets/AY24/headshots/mckenzy.jpg'),
                     flex: 6,
                     resume: './resumes/mckenzy_johnson.pdf',
                     linkedin: "https://www.linkedin.com/in/mckenzy-johnson-2881751a5",
@@ -79,12 +79,12 @@ export default {
                 },
                 {
                     title: 'Saige Morlang',
-                    src: require('../assets/placeholder.jpg'),
+                    src: require('../assets/AY24/headshots/saige.jpg'),
                     flex: 6,
                     // resume: '',
                     // linkedin: "https://www.linkedin.com/in/",
                     // email: 'example@example.com',
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    text: "I am currently a senior electrical engineering major with a focus on power engineering and SCADA systems. I enjoy leveraging my skills to improve automation and control systems both in school and in the power industry. Outside of studies and work, I enjoy spending time with family, exploring the outdoors near Fort Collins, and recording my own original music.",
                 },
                 {
                     title: 'Chris Mills',
@@ -93,7 +93,7 @@ export default {
                     // resume: '',
                     // linkedin: "https://www.linkedin.com/in/",
                     // email: 'example@example.com',
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    text: "Coming soon...",
                 },
                 {
                     title: 'Christopher Moses',
@@ -102,25 +102,26 @@ export default {
                     // resume: '',
                     // linkedin: "https://www.linkedin.com/in/",
                     // email: 'example@example.com',
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    text: "Coming soon...",
                 },
                 {
                     title: 'Drew Achtermann',
-                    src: require('../assets/placeholder.jpg'),
+                    src: require('../assets/AY24/headshots/drew.jpg'),
                     flex: 6,
                     // resume: '',
-                    // linkedin: "https://www.linkedin.com/in/",
-                    // email: 'example@example.com',
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    linkedin: "https://www.linkedin.com/in/glue/",
+                    email: 'drew@oceanmail.net',
+                    github: 'unex',
+                    text: "I am a senior in Electrical Engineering, my interests include but are not limited to power and control systems.",
                 },
                 {
                     title: 'Adrian Pastella',
-                    src: require('../assets/placeholder.jpg'),
+                    src: require('../assets/AY24/headshots/adrian.jpg'),
                     flex: 6,
-                    // resume: '',
-                    // linkedin: "https://www.linkedin.com/in/",
-                    // email: 'example@example.com',
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    resume: './resumes/adrian_pastella.pdf',
+                    linkedin: "https://www.linkedin.com/in/adrianpastella/",
+                    email: 'adrian.pastella@outlook.com',
+                    text: "My name is Adrian and I am a senior finishing up my Computer Engineering degree. I enjoy tinkering with electronics, programming, and discovering the wonderful world of machine learning. In my free time you can find me making music, art, or exploring the outdoors.",
                 },
             ],
             VIPS: [
@@ -133,13 +134,13 @@ export default {
                     text: "I'm a junior in Computer Engineering at CSU. I'm interested in working in robotics, aerospace, and embedded systems. I'm a huge Colorado sports fan and in my free time I like running, electronics repair, and backpacking."
                 },
                 {
-                    title: 'Jason LastName',
-                    src: require('../assets/placeholder.jpg'),
+                    title: 'Jason Taylor',
+                    src: require('../assets/AY24/headshots/jason.jpg'),
                     flex: 6,
                     // resume: '',
-                    // linkedin: "https://www.linkedin.com/in/",
-                    // email: 'example@example.com',
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    linkedin: "https://www.linkedin.com/in/jason-taylor-7aa0982a4",
+                    email: 'Jason.Taylor@colostate.edu',
+                    text: "I’m a junior in Mechanical Engineering. I am interested in aerospace and fluid mechanics. Outside of classes, I like playing video games, listening to music, and going to the gym.",
                 },
             ]
         }
