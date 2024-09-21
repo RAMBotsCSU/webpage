@@ -45,6 +45,10 @@
             </v-col>
         </v-row>
 
+        <v-row>
+            <v-img width="1200px" class="mt-4 mx-12 elevation-2" :src="require('../assets/AY24/team_full.png')"></v-img>
+        </v-row>
+
     </v-card>
 
 </template>
