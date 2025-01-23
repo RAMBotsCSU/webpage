@@ -1,7 +1,7 @@
 <template>
     <div>
-        <v-app-bar v-if="$vuetify.display.mobile" color="#1E4D2B">
-            <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+        <v-app-bar v-if="$vuetify.display.mobile" color="rgb(var(--v-theme-primary))">
+            <v-app-bar-nav-icon @click="drawer = !drawer" class="text-white"></v-app-bar-nav-icon>
             <span class="logo-text">RAMBOTS</span>
         </v-app-bar>
 
@@ -17,13 +17,13 @@
             </v-list>
         </v-navigation-drawer>
 
-        <v-toolbar v-else color="#1E4D2B">
+        <v-toolbar v-else color="rgb(var(--v-theme-primary))">
             <img :src="require('@/assets/CSUWatermarkSmall.png')">
             <v-divider color="white" opacity=1 vertical class="mx-2"></v-divider>
             <span class="logo-text">RAMBOTS</span>
             <v-spacer></v-spacer>
             <v-tabs>
-                <v-tab v-for="item in items" :key="item.title" :to="item.route">
+                <v-tab v-for="item in items" :key="item.title" :to="item.route" class="text-white">
                     {{ item.title }}
                 </v-tab>
             </v-tabs>
