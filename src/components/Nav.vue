@@ -2,7 +2,7 @@
     <div>
         <v-app-bar v-if="$vuetify.display.mobile" color="#1E4D2B">
             <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-            <img :src="require('@/assets/RamLogoText.png')">
+            <span class="logo-text">RAMBOTS</span>
         </v-app-bar>
 
         <v-navigation-drawer v-model="drawer" temporary v-if="$vuetify.display.mobile">
@@ -20,7 +20,7 @@
         <v-toolbar v-else color="#1E4D2B">
             <img :src="require('@/assets/CSUWatermarkSmall.png')">
             <v-divider color="white" opacity=1 vertical class="mx-2"></v-divider>
-            <img :src="require('@/assets/RamLogoText.png')">
+            <span class="logo-text">RAMBOTS</span>
             <v-spacer></v-spacer>
             <v-tabs>
                 <v-tab v-for="item in items" :key="item.title" :to="item.route">
@@ -65,5 +65,12 @@ export default {
 .v-toolbar .v-divider {
     height: 60%;
     align-self: center;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
 }
 </style>
