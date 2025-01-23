@@ -1,11 +1,11 @@
 <template>
     <div>
-        <v-app-bar app v-if="$vuetify.display.mobile" color="#1E4D2B">
+        <v-app-bar v-if="$vuetify.display.mobile" color="#1E4D2B">
             <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
             <img :src="require('@/assets/RamLogoText.png')">
         </v-app-bar>
 
-        <v-navigation-drawer v-model="drawer" app temporary v-if="$vuetify.display.mobile">
+        <v-navigation-drawer v-model="drawer" temporary v-if="$vuetify.display.mobile">
             <v-list>
                 <v-list-item v-for="item in items" :key="item.title" :to="item.route">
                     <template v-slot:prepend>
@@ -17,7 +17,7 @@
             </v-list>
         </v-navigation-drawer>
 
-        <v-toolbar app v-else color="#1E4D2B">
+        <v-toolbar v-else color="#1E4D2B">
             <img :src="require('@/assets/CSUWatermarkSmall.png')">
             <v-divider color="white" opacity=1 vertical class="mx-2"></v-divider>
             <img :src="require('@/assets/RamLogoText.png')">
