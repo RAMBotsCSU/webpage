@@ -1,33 +1,33 @@
 <template>
 
-    <v-card v-if="!this.mobile" outlined color="transparent" :max-width="1500" elevation="0" class="pa-8 ma-4">
+    <v-card v-if="!this.mobile" border color="transparent" :max-width="1500" elevation="0" class="pa-8 ma-4">
 
         <v-row class="text-center">
             <v-col class="font-weight-medium text-h4 text-center mt-4">
                 <span style="text-decoration: underline;">Seniors</span>
             </v-col>
         </v-row>
-    
+
         <v-row class="text-center">
             <v-col class="text-center d-flex justify-space-around"
                    v-for="card in cards"
                    :key="card.title"
                    >
-                    
+
                 <v-card width="250px">
                     <v-img :src="card.src"
-                           class="white--text align-end"
+                           class="text-white align-end"
                            gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.2)"
                            height="300px">
                         <v-card-title v-text="card.title"></v-card-title>
                     </v-img>
-                    <v-card outlined color="transparent" height="220px">
+                    <v-card border color="transparent" height="220px">
 
                         <v-card-text class="grow text-left px-2 mt-2 mb-n2">{{card.text}}</v-card-text>
                     </v-card>
 
                     <v-card-actions>
-                        <v-btn icon :disabled="card.resume == null" 
+                        <v-btn icon :disabled="card.resume == null"
                                     :href="card.resume" target="_blank">
                             <v-icon>mdi-file-account</v-icon>
                         </v-btn>
@@ -61,24 +61,24 @@
                    :key="card.title">
 
 
-                <v-card v-if="card.title.length == 1" width="250px" outlined color="transparent">
+                <v-card v-if="card.title.length == 1" width="250px" border color="transparent">
 
                 </v-card>
 
                 <v-card v-else width="250px">
                     <v-img :src="card.src"
-                           class="white--text align-end"
+                           class="text-white align-end"
                            gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
                            height="300px">
                         <v-card-title v-text="card.title"></v-card-title>
                     </v-img>
-                    <v-card outlined color="transparent" height="220px">
+                    <v-card border color="transparent" height="220px">
 
                         <v-card-text class="grow text-left px-2 mt-2 mb-n2">{{card.text}}</v-card-text>
                     </v-card>
 
                     <v-card-actions>
-                        <v-btn icon :disabled="card.resume == null" 
+                        <v-btn icon :disabled="card.resume == null"
                                     :href="card.resume" target="_blank">
                             <v-icon>mdi-file-account</v-icon>
                         </v-btn>
@@ -123,15 +123,15 @@
 
         <v-container fluid>
             <v-layout justify-center align-center>
-                <v-flex shrink>
+                <d-flex shrink>
                     <v-img width="1200px" class="mt-4 elevation-2" :src="require('../assets/year3/team/year3_full.jpg')"></v-img>
-                </v-flex>
+                </d-flex>
             </v-layout>
         </v-container>
 
     </v-card>
 
-    <v-card v-else outlined color="transparent">
+    <v-card v-else border color="transparent">
         <v-row class="text-center mb-12 mt-2">
             <v-col class="text-center d-flex justify-space-around"
                    v-for="card in cards"
@@ -140,12 +140,12 @@
 
                 <v-card width="250px">
                     <v-img :src="card.src"
-                           class="white--text align-end"
+                           class="text-white align-end"
                            gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
                            height="300px">
                         <v-card-title v-text="card.title"></v-card-title>
                     </v-img>
-                    <v-card outlined color="transparent" height="220px">
+                    <v-card border color="transparent" height="220px">
 
                         <v-card-text class="grow text-left px-2 mt-2 mb-n2">{{card.text}}</v-card-text>
                     </v-card>
@@ -197,7 +197,7 @@
                 <v-img width="400" class="mt-4 elevation-2" :src="require('../assets/year3/team/year3_full.jpg')"></v-img>
             </v-col>
         </v-row>
-     
+
     </v-card>
 
 </template>
@@ -216,23 +216,23 @@
             return {
                 mobile: false,
                 cards: [
-                    { 
-                        title: 'Anna Biolchini', 
-                        src: require('../assets/year3/headshots/anna_biolchini.jpg'), 
-                        flex: 6, 
-                        linkedin: "https://www.linkedin.com/in/anna-biolchini/", 
-                        text: "I am a senior studying Electrical Engineering and I am a co-captain of the RamBOTs team. I am interseted in aerospace, circuit design and analysis, control systems, and pushing technology further. In my free time, I love to hike, read, and try new things." 
+                    {
+                        title: 'Anna Biolchini',
+                        src: require('../assets/year3/headshots/anna_biolchini.jpg'),
+                        flex: 6,
+                        linkedin: "https://www.linkedin.com/in/anna-biolchini/",
+                        text: "I am a senior studying Electrical Engineering and I am a co-captain of the RamBOTs team. I am interseted in aerospace, circuit design and analysis, control systems, and pushing technology further. In my free time, I love to hike, read, and try new things."
                     },
                     {
-                        title: 'Elaine Smith', 
-                        src: require('../assets/year3/headshots/elaine_smith.jpg'), 
-                        flex: 6, 
-                        resume: './resumes/elaine_smith.pdf', 
-                        linkedin: "https://www.linkedin.com/in/elaine-smith-csu/", 
-                        email: "elaines@1colostate.edu", 
-                        text: "I am a senior in Electrical Engineering with a second major in Computer Science. I am interested in digital logic, software, and embedded systems. In my free time, I like drumming, playing video games, and stargazing." 
+                        title: 'Elaine Smith',
+                        src: require('../assets/year3/headshots/elaine_smith.jpg'),
+                        flex: 6,
+                        resume: './resumes/elaine_smith.pdf',
+                        linkedin: "https://www.linkedin.com/in/elaine-smith-csu/",
+                        email: "elaines@1colostate.edu",
+                        text: "I am a senior in Electrical Engineering with a second major in Computer Science. I am interested in digital logic, software, and embedded systems. In my free time, I like drumming, playing video games, and stargazing."
                     },
-                    { 
+                    {
                         title: 'Aironas Bilevicius',
                         src: require('../assets/year3/headshots/aironas_bilevicius.jpg'),
                         flex: 6,
@@ -301,13 +301,13 @@
                 ],
                 VIPS: [
                     { title: 'a', src: require('../assets/placeholder.jpg'), flex: 6 },
-                    { 
-                        title: 'Joey Reback', 
-                        src: require('../assets/year3/headshots/joey_reback.jpg'), 
-                        flex: 6, 
-                        linkedin: "https://www.linkedin.com/in/joseph-reback-54327b250", 
+                    {
+                        title: 'Joey Reback',
+                        src: require('../assets/year3/headshots/joey_reback.jpg'),
+                        flex: 6,
+                        linkedin: "https://www.linkedin.com/in/joseph-reback-54327b250",
                         email: 'jreback@colostate.edu',
-                        text: "I'm a sophomore in Computer Engineering at CSU. I'm interested in working in robotics, aerospace, and embedded systems. I'm a huge Colorado sports fan and in my free time I like running, electronics repair, and backpacking." 
+                        text: "I'm a sophomore in Computer Engineering at CSU. I'm interested in working in robotics, aerospace, and embedded systems. I'm a huge Colorado sports fan and in my free time I like running, electronics repair, and backpacking."
                     },
                     { title: 'b', src: require('../assets/placeholder.jpg'), flex: 6 },
                 ]

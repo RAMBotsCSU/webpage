@@ -8,12 +8,12 @@
         </v-col>
         <v-col cols="this.mobile ? 12 : 10" class="d-flex justify-center align-center">
             <v-card max-width="1300px" class="mt-4 pa-4">
-                <v-tabs @change="console.log(tab)" v-model="tab" color="#1E4D2B">
+                <v-tabs @update:model-value="console.log(tab)" v-model="tab" color="#1E4D2B">
                     <v-tab >2023/2024</v-tab>
                     <v-tab >2022/2023</v-tab>
                 </v-tabs>
                 <v-divider></v-divider>
-                <v-card outlined color="transparent" class="d-flex justify-center align-center">
+                <v-card border color="transparent" class="d-flex justify-center align-center">
                     <GalleryYear3 v-if="tab == 0" />
                     <GalleryYear2 v-if="tab == 1" />
                 </v-card>
@@ -26,7 +26,7 @@
     </v-row>
 
 
-   
+
 
 </template>
 

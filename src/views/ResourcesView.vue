@@ -9,15 +9,15 @@
                 <v-divider></v-divider>
 
                 <v-list-item class="mt-8">
-                    <v-list-item-content>
+                    
                         <a href="https://github.com/XRobots/openDogV3"
                            class="text-decoration-none text-h5">James Bruton's openDogV3</a>
                         <v-list-item-subtitle class="ml-4">Source of original mechanical design</v-list-item-subtitle>
-                    </v-list-item-content>
+                    
                 </v-list-item>
 
                 <v-list-item class="mt-0">
-                    <v-list-item-content>
+                    
                         <a href="https://github.com/RAMBotsCSU"
                            class="text-decoration-none text-h5">RamBOTs GitHub Organization</a>
                            <a href="https://github.com/RAMBotsCSU/deployment"
@@ -32,15 +32,15 @@
                            class="text-decoration-none text-p1 ml-4 mt-2">Outreach repository</a>
                            <a href="https://github.com/RAMBotsCSU/webpage"
                            class="text-decoration-none text-p1 ml-4 mt-2">Webpage repository</a>
-                    </v-list-item-content>
+                    
                 </v-list-item>
 
                 <v-list-item>
-                    <v-list-item-content>
+                    
                         <a href="https://projects-web.engr.colostate.edu/ece-sr-design/AY23/RamBOTs" open
                            class="text-decoration-none text-h5">RamBOTs 2023-2024 Team's Website</a>
                            <v-list-item-subtitle class="ml-4">Check out the previous year's website!</v-list-item-subtitle>
-                    </v-list-item-content>
+                    
                 </v-list-item>
 
             </v-card>

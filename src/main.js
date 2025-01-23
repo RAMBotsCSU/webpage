@@ -1,18 +1,9 @@
-import Vue from 'vue'
+import { createApp } from 'vue'
 import App from './App.vue'
-import router from './router'
 import vuetify from './plugins/vuetify'
+import router from './router'
 
-import Embed from 'v-video-embed'
- 
-// global register
-Vue.use(Embed);
-
-
-Vue.config.productionTip = false
-
-new Vue({
-  router,
-  vuetify,
-  render: h => h(App)
-}).$mount('#app')
+createApp(App)
+  .use(vuetify)
+  .use(router)
+  .mount('#app')

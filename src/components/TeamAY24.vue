@@ -1,6 +1,6 @@
 <template>
 
-    <v-card outlined color="transparent" :max-width="1500" elevation="0" class="pa-8 ma-4">
+    <v-card border elevation="0" class="pa-8 ma-4">
 
         <v-row class="text-center">
             <v-col class="font-weight-medium text-h4 text-center mt-4">
