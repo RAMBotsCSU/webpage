@@ -4,7 +4,7 @@
 
         <v-row class="mt-4">
             <v-col :cols="this.mobile ? 12 : 5">
-                <v-card class=" pa-2 mt-12 justify-center" outlined color="transparent" height="100%">
+                <v-card class=" pa-2 mt-12 justify-center" border color="transparent" height="100%">
                     <div class="text-center">
                         <v-row>
                             <v-col cols="1"><v-spacer></v-spacer></v-col>
@@ -14,10 +14,10 @@
 
                                 <v-row>
                                     <v-spacer></v-spacer>
-                                    <v-btn text class="mt-0"
+                                    <v-btn variant="text" class="mt-0"
                                         href="https://projects-web.engr.colostate.edu/ece-sr-design/AY24/outreach/"
                                         target="_blank">
-                                        An ECE Outreach Project<v-icon right>
+                                        An ECE Outreach Project<v-icon end>
                                             mdi-link
                                         </v-icon>
                                     </v-btn>
@@ -25,9 +25,9 @@
                                 </v-row>
                                 <v-row class="mt-6">
                                     <v-spacer></v-spacer>
-                                    <v-btn text class="mt-0"
+                                    <v-btn variant="text" class="mt-0"
                                         href="https://www.youtube.com/channel/UC3K_Uz-jJc2ynTyCAwXKSBg" target="_blank">
-                                        Visit us on Youtube<v-icon class="ml-8" size="50" color="red" right>
+                                        Visit us on Youtube<v-icon class="ml-8" size="50" color="red" end>
                                             mdi-youtube
                                         </v-icon>
                                     </v-btn>
@@ -35,8 +35,8 @@
                                 </v-row>
                                 <v-row class="mt-6">
                                     <v-spacer></v-spacer>
-                                    <v-btn text class="mt-0" href="https://github.com/RAMBotsCSU" target="_blank">
-                                        Visit us on Github<v-icon class="ml-11" size="50" right>
+                                    <v-btn variant="text" class="mt-0" href="https://github.com/RAMBotsCSU" target="_blank">
+                                        Visit us on Github<v-icon class="ml-11" size="50" end>
                                             mdi-github
                                         </v-icon>
                                     </v-btn>
@@ -51,11 +51,11 @@
                 </v-card>
             </v-col>
             <v-col :cols="this.mobile ? 12 : 7">
-                <v-card class="pa-2" outlined color="transparent">
+                <v-card class="pa-2" border color="transparent">
                     <v-carousel :height="this.mobile ? 300 : 513" width="500px">
                         <v-carousel-item reverse-transition="fade-transition" transition="fade-transition"
                             v-for="(item, i) in items" :key="i">
-                            <v-img :src="item.src" contain></v-img>
+                            <v-img :src="item.src" cover></v-img>
                         </v-carousel-item>
 
                     </v-carousel>
@@ -65,7 +65,7 @@
 
         <v-row class="justify-center mt-8">
             <v-col :cols="this.mobile ? 12 : 8">
-                <v-card outlined class="mb-4">
+                <v-card border class="mb-4">
                     <v-card-text>
                         <div class="text-h3 text--primary mt-0">About Us</div>
                         <p class="text-h4 text--primary mt-4">

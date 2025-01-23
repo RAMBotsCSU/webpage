@@ -10,12 +10,12 @@
 
                 <v-card width="250px">
                     <v-img :src="card.src"
-                           class="white--text align-end"
+                           class="text-white align-end"
                            gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
                            height="300px">
                         <v-card-title v-text="card.title"></v-card-title>
                     </v-img>
-                    <v-card outlined color="transparent" height="220px">
+                    <v-card border color="transparent" height="220px">
 
                         <v-card-text class="grow text-left px-2 mt-2 mb-n2">{{card.text}}</v-card-text>
                     </v-card>
@@ -65,15 +65,15 @@
 
         <v-container fluid>
             <v-layout justify-center align-center>
-                <v-flex shrink>
+                <d-flex shrink>
                     <v-img width="1200px" class="mt-4 elevation-2" :src="require('../assets/year1/team_full.jpg')"></v-img>
-                </v-flex>
+                </d-flex>
             </v-layout>
         </v-container>
 
     </v-card>
 
-    <v-card v-else outlined color="transparent">
+    <v-card v-else border color="transparent">
         <v-row class="text-center mb-12 mt-2">
             <v-col class="text-center d-flex justify-space-around"
                    v-for="card in cards"
@@ -82,12 +82,12 @@
 
                 <v-card width="250px">
                     <v-img :src="card.src"
-                           class="white--text align-end"
+                           class="text-white align-end"
                            gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
                            height="300px">
                         <v-card-title v-text="card.title"></v-card-title>
                     </v-img>
-                    <v-card outlined color="transparent" height="220px">
+                    <v-card border color="transparent" height="220px">
 
                         <v-card-text class="grow text-left px-2 mt-2 mb-n2">{{card.text}}</v-card-text>
                     </v-card>
@@ -164,7 +164,7 @@
                     { title: 'Alex Kolodzik', src: require('../assets/year2/alex_kolodzik.jpg'), flex: 6, text:"Alex Kolodzik is a junior at CSU pursuing an electrical engineering degree. He has a passion for robots and his passion project is building his own functioning Iron Man Helmet." },
                     { title: 'Gwyn Tari', src: require('../assets/year2/gwyn_tari.jpg'), flex: 6, text:"Third year computer engineering student. Senior design VIP student. ECE outreach student and ENpower Engineering mentor." },
                 ],
-               
+
             }
         },
     }</script>

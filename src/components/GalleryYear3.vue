@@ -12,7 +12,7 @@
 
                 <v-card>
                     <v-img :src="card.src"
-                           class="white--text align-end"
+                           class="text-white align-end"
                            gradient="to bottom, rgba(0,0,0,.05), rgba(0,0,0,.2)">
                         <v-card-title v-text="card.title"></v-card-title>
                     </v-img>
@@ -29,7 +29,7 @@
 
                 <v-card>
                     <v-img :src="card.src"
-                           class="white--text align-end"
+                           class="text-white align-end"
                            gradient="to bottom, rgba(0,0,0,.05), rgba(0,0,0,.2)">
                         <v-card-title v-text="card.title"></v-card-title>
                     </v-img>
@@ -48,7 +48,7 @@
 
                 <v-card>
                     <v-img :src="card.src"
-                           class="white--text align-end"
+                           class="text-white align-end"
                            gradient="to bottom, rgba(0,0,0,.05), rgba(0,0,0,.2)">
                         <v-card-title v-text="card.title"></v-card-title>
                     </v-img>
@@ -65,9 +65,9 @@
                   :cols="mobile ? 12 : 6">
 
                 <v-card>
-                    <v-img 
+                    <v-img
                            :src="card.src"
-                           class="white--text align-end"
+                           class="text-white align-end"
                            :height="mobile ? 300 : 600"
                            gradient="to bottom, rgba(0,0,0,.05), rgba(0,0,0,.2)">
                         <v-card-title v-text="card.title"></v-card-title>
@@ -98,7 +98,7 @@
                 testing: [
                     { title: '1st Walk Test', src: require('../assets/year3/gallery/testing/firstWalkTest.jpg'), flex: 4 },
                     { title: 'Measuring for New Stand', src: require('../assets/year3/gallery/testing/measurements.jpg'), flex: 4 },
-                    { title: 'Testing the 5th Leg', src: require('../assets/year3/gallery/testing/testing5thLeg.jpeg'), flex: 4 }   
+                    { title: 'Testing the 5th Leg', src: require('../assets/year3/gallery/testing/testing5thLeg.jpeg'), flex: 4 }
                 ],
                 construction: [
                     { title: 'Disassembled', src: require('../assets/year3/gallery/construction/dissassembled.jpg'), flex: 4 },

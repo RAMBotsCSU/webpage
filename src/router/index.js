@@ -1,7 +1,5 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import { createWebHistory, createRouter } from 'vue-router'
 
-Vue.use(VueRouter);
 
 const routes = [
     {
@@ -35,7 +33,7 @@ const routes = [
         component: () => import(/* webpackChunkName: "videos" */ '../views/VideoView.vue')
     },
     { // Catch-all 404 route, should be the last one
-      path: '*',
+      path: '/:pathMatch(.*)*',
       name: 'NotFound',
       component: () => import('../views/NotFound.vue')
     }
@@ -46,10 +44,10 @@ function getBasePath() {
     return pathMatch ? pathMatch[1] : '/'; // Fallback to root if not matched
 }
 
-const router = new VueRouter({
-    mode: 'history',
+const router = createRouter({
+    history: createWebHistory(),
     base: getBasePath(),
-    routes
-});
+    routes,
+})
 
 export default router

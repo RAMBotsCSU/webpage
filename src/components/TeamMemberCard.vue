@@ -1,10 +1,10 @@
 <template>
     <v-card class="align-self-start" width="250px">
-        <v-img :src="card.src" class="white--text align-end" gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.2)"
+        <v-img :src="card.src" class="text-white align-end" gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.2)"
             height="300px">
             <v-card-title v-text="card.title"></v-card-title>
         </v-img>
-        <v-card outlined color="transparent">
+        <v-card border color="transparent">
             <v-card-text class="grow text-left">{{ card.text }}</v-card-text>
         </v-card>
 
