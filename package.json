@@ -20,7 +20,7 @@
     "@vue/cli-plugin-eslint": "~5.0.8",
     "@vue/cli-plugin-router": "~5.0.8",
     "@vue/cli-service": "~5.0.8",
-    "eslint": "^8.57.0",
+    "eslint": "^8.57.1",
     "eslint-plugin-vue": "^9.32.0",
     "eslint-plugin-vuetify": "^2.5.1",
     "sass": "~1.83.4",
@@ -28,20 +28,6 @@
     "vue-cli-plugin-vuetify": "~2.5.8",
     "vue-template-compiler": "^2.7.16",
     "webpack-plugin-vuetify": "^3.0.3"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "@babel/eslint-parser"
-    },
-    "rules": {}
   },
   "browserslist": [
     "> 1%",
