@@ -1,47 +1,99 @@
 <template>
-
-    <v-row>
-        <v-col cols="this.mobile ? 12 : 10" class="d-flex justify-center align-center">
-            <v-card max-width="1500px" class="mt-4 pa-4">
-                <v-tabs @update:model-value="console.log(tab)" v-model="tab" color="#1E4D2B">
-                    <v-tab>2023/2024</v-tab>
-                    <v-tab>2022/2023</v-tab>
+    <v-container>
+        <v-row>
+            <v-col cols="12">
+                <v-tabs v-model="tab" color="primary">
+                    <v-tab v-for="(year, index) in years" :key="index">{{ year.title }}</v-tab>
                 </v-tabs>
-                <v-divider></v-divider>
-                <v-card border color="transparent" class="d-flex justify-center align-center">
-                    <videosYear3 v-if="tab == 0" />
-                    <videosYear2 v-if="tab == 1" />
+            </v-col>
+        </v-row>
+        <v-row>
+            <v-col cols="12">
+                <v-card class="d-flex justify-center align-center">
+                    <v-window v-model="tab">
+                        <v-window-item v-for="(year, index) in years" :key="index" :value="index">
+                            <v-card-text>
+                                <v-row>
+                                    <v-col cols="4" v-for="videoId in year.videos" :key="videoId" color="#00ff00">
+                                        <div class="player">
+                                            <VueYtframe :video-id="videoId" @ready="onPlayerReady(videoId)">
+                                            </VueYtframe>
+                                            <v-progress-circular v-if="loadingVideos[videoId]" indeterminate
+                                                color="primary"></v-progress-circular>
+                                        </div>
+                                    </v-col>
+                                </v-row>
+                            </v-card-text>
+                        </v-window-item>
+                    </v-window>
                 </v-card>
-            </v-card>
-        </v-col>
-
-    </v-row>
-
+            </v-col>
+        </v-row>
+    </v-container>
 </template>
 
 <script>
-import videosYear2 from '../components/VideosYear2.vue'
-import videosYear3 from '../components/VideosYear3.vue'
 export default {
-    mounted() {
-        this.mobile = window.innerWidth <= 760
-    },
-    computed: {
-        console: () => console,
-        window: () => window,
-    },
-    components: {
-        videosYear2,
-        videosYear3
-    },
     data() {
         return {
-            mobile: false,
-            logo: require('../assets/gallery/chassis.jpg'),
-            tab: null,
-            url: "https://projects-web.engr.colostate.edu/ece-sr-design/AY23/outreach/",
-
+            tab: 0,
+            loadingVideos: {},
+            years: [
+                {
+                    title: '2023/2024',
+                    videos: [
+                        "rcZ5d448H4Y",
+                        "d6j7IPYGWHc",
+                        "DvWL3E3WPoU"
+                    ]
+                },
+                {
+                    title: '2022/2023',
+                    videos: [
+                        "lGujzt1vstc",
+                        "Tb1ysV0rtFo",
+                        "XzEjYknNzUg",
+                        "xvF6pBuC2yg",
+                        "0eQwpkMz9T8",
+                        "nPgpwkBiq1I",
+                        "aV50ot9t3os",
+                        "XT73xWqmi78",
+                        "Lt--0nAPuSA",
+                        "noQQGqFBcIw",
+                        "axCfKZ4Z-Ik",
+                        "343kp-O3OiQ"
+                    ]
+                }
+            ]
         }
     },
+    created() {
+        this.initializeLoadingState();
+    },
+    methods: {
+        initializeLoadingState() {
+            this.years.forEach(year => {
+                year.videos.forEach(videoId => {
+                    this.loadingVideos = { ...this.loadingVideos, [videoId]: true };
+                });
+            });
+        },
+        onPlayerReady(videoId) {
+            this.loadingVideos = { ...this.loadingVideos, [videoId]: false };
+        }
+    }
 }
 </script>
+
+<style>
+.player {
+    position: relative;
+}
+
+.v-progress-circular {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+</style>
