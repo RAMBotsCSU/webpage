@@ -130,7 +130,7 @@ export default {
         return {
             items: [
                 {
-                    src: require('../assets/AY24/team_full.png'),
+                    src: require('@/assets/AY24/team_full.png'),
                 },
             ],
         };

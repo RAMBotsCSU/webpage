@@ -44,10 +44,7 @@ function getBasePath() {
     return pathMatch ? pathMatch[1] : '/'; // Fallback to root if not matched
 }
 
-const router = createRouter({
-    history: createWebHistory(),
-    base: getBasePath(),
+export default createRouter({
+    history: createWebHistory(getBasePath()),
     routes,
 })
-
-export default router
