@@ -120,6 +120,11 @@ export default {
                             email: 'adrian.pastella@outlook.com',
                             text: "My name is Adrian and I am a senior finishing up my Computer Engineering degree. I enjoy tinkering with electronics, programming, and discovering the wonderful world of machine learning. In my free time you can find me making music, art, or exploring the outdoors.",
                         },
+                        {
+                            title: 'Harrison Greene',
+                            src: require('@/assets/AY24/headshots/harrison.jpg'),
+                            text: "I'm a senior computer engineering student with a passion for machine learning and software development. In my free time, I enjoy bowling, shooting pool, and playing video games.",
+                        },
                     ],
                     vips: [
                         {
