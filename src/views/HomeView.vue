@@ -130,6 +130,9 @@ export default {
         return {
             items: [
                 {
+                    src: require('@/assets/AY24/team_full_spring.png'),
+                },
+                {
                     src: require('@/assets/AY24/team_full.png'),
                 },
             ],
