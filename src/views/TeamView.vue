@@ -79,6 +79,96 @@ export default {
             tab: 0,
             years: [
                 {
+                    title: '2025/2026',
+                    seniors:[
+                        {
+                            title: 'Joey Reback',
+                            src: require('@/assets/AY25/Headshots/Img_2024_09_06_16_52_50 - Joesby.jpeg'),
+                            linkedin: "joseph-reback",
+                            email: 'jreback@colostate.edu',
+                            text: "My name is Joey Reback and I'm a fourth year Computer Engineer. I'm interested in Robotics and Embedded Machine Programming. When I'm not in the senior design lab I'm usually running, camping or fixing something."
+                        },
+                        {
+                            title: 'Elijah Umaru',
+                            src: require('@/assets/AY25/Headshots/Headshot - David- Elijah Umaru.jpg'),
+                            linkedin: "david-umaru",
+                            email: 'delijah4@colostate.edu',
+                            text: "I am currently a fourth-year student in Computer Engineering at CSU. My favorite topic in Engineering is Robotics and Circuit Design (PCB Design). My hobbies are playing video games, running, playing soccer, and I am interested in the engineering of cars. "
+                        },
+                        {
+                            title: 'Valentina Diaz',
+                            src: require('@/assets/AY25/Headshots/Valentina_headshot.jpeg'),
+                            linkedin: "valentina-diaz-509674293",
+                            email: 'valdb1037@gmail.com',
+                            text: "I am currently in my fourth year as a computer engineer with a concentration in embedded systems and IoT at CSU. My favorite topic in engineering would have to be robotics. My hobbies would have to be drawing, animation, playing with my dog, and hiking."
+                        },
+                        {
+                            title: 'Gabriel Ferrer',
+                            src: require('@/assets/AY25/Headshots/IMG_8098 - Gabriel Ferrer.jpeg'),
+                            linkedin: "gabriel-ferrer16/",
+                            email: 'gabe116@colostate.edu',
+                            text: "4th Year, Electrical Engineering, Power and Robotics, Working out, Playing and watching soccer"
+                        },
+                        {
+                            title: 'Harrison Greene',
+                            src: require('@/assets/AY25/Headshots/IMG_8191 - Harrison Greene.jpg'),
+                            linkedin: "harrison-greene-a920841a5/",
+                            email: 'hgreene61907@gmail.com',
+                            text: "I'm a senior studying Computer Engineering with a concentration in Embedded Systems & IoT. I have a passion for machine learning applications and automation software. Outside of school, I enjoy bowling and spending time with my fraternity brothers."
+                        },
+                        {
+                            
+                            title: 'Isaiah Trujillo',
+                            src: require('@/assets/AY25/Headshots/Isaiah_headshot.jpg'),
+                            linkedin: "isaiah-trujillo-129a64297",
+                            email: 'itzay11@yahoo.com',
+                            text: "Electrical Engineering Major with a desired concentration in Electromagnetics, Controls, CAD, and LIDAR AV systems. "
+
+                        },
+                        {
+                            title: 'Jason Taylor',
+                            src: require('@/assets/AY25/Headshots/Jason Picture - Jason Taylor.jpg'),
+                            linkedin: "jason-taylor-7aa0982a4",
+                            email: 'j.ntaylor0424@gmail.com',
+                            text: "I am a 4th year Mechanical Engineering Student. I am interested in Mechatronics and Systems. My hobbies include weightlifting, videogames, and listening to music."
+
+                        },
+                        {
+                            title:'Tom Asiala',
+                            src: require('@/assets/AY25/Headshots/IMG_5199 - Tom Asi.jpeg'),
+                            //linkedin: "",
+                            email: 'talasi2226@gmail.com',
+                            text: "Senior Mechanical Engineering studnet, Mechatronics, Hobbies: Disc Golf, Music"
+                        },
+                        {
+                            title: 'Everett Serff',
+                            src: require('@/assets/AY25/Headshots/IMG_0831 - Everett S.jpeg'),
+                            linkedin: "everett-serff-2b4260327",
+                            email: 'evert@colostate.edu',
+                            text: "I'm a senior mechanical engineering student and some of my favorite engineering topics are CAD, statics, and fluid mechanics. My hobbies include playing guitar, watching movies, learning languges, and video games."
+                        },
+                    ],
+                    vips: [
+                        {
+                            title: 'Carrissa Avalos',
+                            src: require('@/assets/AY25/Headshots/CarissaAvalos - Carissa.jpg'),
+                            linkedin: "carissa-avalos-486406262",
+                            email: 'carissaavalos288@gmail.com',
+                            text: "I am a 4th year Biomedical & Mechanical Engineering student and I like anything related to robotics, but I am also passionate about going into weather-related engineering (weather instruments/radar). I love reading, drawing, and playing video games."
+                        },
+                        {
+                            title: 'Tobias Beesley',
+                            src: require('@/assets/AY25/Headshots/20250912_091042 - Tobias Beesley.jpg'),
+                            linkedin: "tobias-beesley",
+                            email: 'tobias.beesley@colostate.edu',
+                            text: "I am a 3rd year EE major. My favorite topic in engineering is power and energy. In my spare time I like to paint historical and Warhammer miniatures."
+                        },
+                    ],
+                    advisor: 'Olivera Notaros',
+                    industryMembers: ['Jon Lotz', 'Rich Artz'],
+                    teamImage: require('@/assets/AY25/Rambot_Team_photo.png')
+                },
+                {
                     title: '2024/2025',
                     seniors: [
                         {

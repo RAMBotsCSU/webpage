@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <v-row>
-            <v-col :cols="$vuetify.display.mobile ? 12 : 4">
+            <v-col :cols="$vuetify.display.mobile ? 13 : 4">
                 <v-card height="100%">
                     <div class="d-flex flex-column justify-center">
                         <img width="80%" class="mt-6 mx-auto" :src="require('@/assets/RamLogoText.png')" />
@@ -51,72 +51,62 @@
                         <div class="text-h3 text--primary mt-0">About Us</div>
                         <p class="text-h4 text--primary mt-4">Project Summary</p>
                         <p>
-                            RamBOTs is a multidisciplinary senior design team composed of electrical, computer, and
-                            mechanical engineers. In this project, we plan to learn about robotics through the
-                            development of a quadrupedal robot and integrate newer technologies that are currently
-                            changing robotics. We will work with different aspects of engineering such as machine
-                            learning, kinematics, motor control, computer aided design (CAD), and power systems to
-                            create a robot that will be able to navigate an unknown environment to follow a thrown
-                            object. The team also aims to demonstrate the pieces that make up the robot in a way that's
-                            accessible and exciting for different age groups in tandem with Electrical and Computer
-                            Engineering (ECE) Outreach.
+                            RamBOTs is a large interdisciplinary project that allows students to apply their engineering 
+                            skills towards robotics. The current year’s project has worked on developing a robust AI-computer 
+                            vision navigation model for the robot, converting a large-scale codebase into functional programming, 
+                            revamping the robot’s walk cycle, researching robotics power system techniques, as well as creating a 
+                            robust datalogging system for fault detection.  
+
+                        </p>
+                        <p>
+                            RamBOTs also consists of student outreach. We collaborate with the ECE Outreach club for events like 
+                            organizing workshops and student recruitment. Our goal with outreach is to build and show off robotics 
+                            and ECE style projects in conjunction with Outreach to students of all ages.
                         </p>
                         <p class="text-h4 text--primary mt-12">Background</p>
-                        <p>
-                            The primary objective of this project, consistent with previous years, is to create an
-                            educational and outreach tool in the form of an open-source quadrupedal robot. RamBOTs is an
-                            ongoing multi-year project now entering its third year, with significant progress already
-                            achieved.
-                        </p>
-                        <p>
-                            In the initial year, the focus was on harnessing machine learning to identify objects using
-                            a camera. That team initially adopted the openDog V2 project by James Bruton and began the
-                            process of replicating it. However, during that year, a new iteration called openDog V3 was
-                            released, which briefly shifted their course. Despite this, by the end of the first year,
-                            they had successfully 3D printed several essential robot components.
-                        </p>
-                        <p>
-                            The second-year team continued from where the previous team left off, completing the 3D
-                            printing phase and moving on to assemble the robot's electronics, software, and hardware. By
-                            the close of the second year, the robot could walk, perform push ups, and engage in various
-                            activities.
-                        </p>
+                        <div class="text-h5 text--primary mt-10">Year 1:</div>
+                        <p class="mt-2">In the initial year, the focus was on harnessing machine learning to identify objects using a camera. That team initially adopted the openDog V2 project by James Bruton and began the process of replicating it. However, during that year, a new iteration called openDog V3 was released, which briefly shifted their course. Despite this, by the end of the first year, they had successfully 3D printed several essential robot components.</p>
+                        
+                        <div class="text-h5 text--primary mt-10">Year 2:</div>
+                        <p class="mt-2">The second-year team continued from where the previous team left off, completing the 3D printing phase and moving on to assemble the robot's electronics, software, and hardware. By the close of the second year, the robot could walk, perform push-ups, and engage in various activities.</p>
+                        
+                        <div class="text-h5 text--primary mt-10">Year 3:</div>
+                        <p class="mt-2">The third year’s team investigated the reliability of the robot and learned on a deeper level the functionality of the robot. Sparky was taken to multiple outreach events and was a big hit. We implemented a new tennis ball following model, and created management scripts to improve the reliability of the robot.</p>
+                        
+                        <div class="text-h5 text--primary mt-10">Year 4:</div>
+                        <p class="mt-2">Our GUI library was completely deprecated, so we had to port all of our code to something new. So we worked to shift Sparky to a new codebase. Additionally, we improved some outreach aspects of it, giving him some paint, decals, a flag, and some LEDs that change color. We also implemented a gesture detection code that is yet to be implemented, but shows high accuracy and high promise.</p>
+
                         <p class="text-h4 text--primary mt-12">Constraints</p>
                         <p>
-                            Currently, the robot faces significant reliability issues, which have become a primary focus
-                            for this year's efforts. In addition to enhancing reliability, we aim to make the robot a
-                            more engaging engineering tool. To achieve this, we plan to enable the robot to navigate an
-                            uneven concrete surface to play fetch - allowing users to throw a ball for the robot to
-                            follow. This entails teaching the robot to maneuver autonomously, with a strong emphasis on
-                            safety through obstacle detection to prevent collisions. Object detection and tracking will
-                            also be pivotal this year, enabling the robot to locate the ball accurately. Furthermore, as
-                            a stretch goal, we hope to implement voice commands to offer users an interactive way to
-                            engage with the robot dog.
-                        </p>
-                        <p>
-                            These tasks are challenging, so we have a range of supporting tasks, including
-                            documentation, simulation, and stress tests, which are equally essential. These tasks will
-                            not only enhance the robot's functionality but also provide valuable insights for the next
-                            year's team as they embark on further improvements.
+                            This is the fifth year of the project, so some of our components are beginning to show their 
+                            wear and age. Currently, we are again exploring ways to enhance the reliability of the RamBot. 
+                            Our goal is to make this a system that we can consistently take off the stand and deploy for any upcoming 
+                            event, but we run into some parts that consistently fail. The biggest strain points are our encoders, which 
+                            need a full wiring overhaul. Additionally, previous years’ teams often have the initial impression that they’ve 
+                            inherited a working robot, resulting in a large backlog of unimplemented projects, such as gesture detection, 
+                            our LED light system, and tennis ball tracking, that are completed but not yet deployed to the robot.
                         </p>
                         <p class="text-h4 text--primary mt-12">Goals</p>
                         <p>
-                            The primary objectives of the RamBOTs project can be categorized into short, medium, and
-                            long-term goals. These objectives are designed to guide the project's development and
+                            At a high level, our goal is to have a working, intuitive robot that can be transported and deployed at department outreach events. These objectives are designed to guide the project's development and
                             measure its success using SMART criteria: Specific, Measurable, Achievable, Realistic, and
-                            Timely.
+                            Timely.To achieve this, we have some sub-tasks to get done:
                         </p>
-                        <div class="text-h5 text--primary mt-10">Short-Term Goals (Complete in Less Than A Month)</div>
-                        <p class="mt-2">Coming soon...</p>
-                        <div class="text-h5 text--primary mt-10">Medium Term Goals (Complete Within the First Semester)
-                        </div>
-                        <p class="mt-2">Coming soon...</p>
-                        <div class="text-h5 text--primary mt-10">Long-Term Goals (Complete by E-Days/End of 2nd
-                            Semester)</div>
-                        <p class="mt-2">Coming soon...</p>
-                        <div class="text-h5 text--primary mt-10">Stretch Goals (Goals to be Added if All Other Goals are
-                            completed)</div>
-                        <p class="mt-2">Coming soon...</p>
+                        <div class="text-h5 text--primary mt-10">Mechanical</div>
+                        <p class="mt-2">- Make repairs on parts that should have been replaced years ago</p>
+                        <p class="mt-2">- Design improvements for the existing mode</p>
+                        <p class="mt-2">- Create a manipulator arm system to enable Sparky to pick up items.</p>
+
+                        <div class="text-h5 text--primary mt-10">Computer</div>
+                        <p class="mt-2">- Finish porting old code functions from the previous codebase, such as leg control mode</p>
+                        <p class="mt-2">- Integrate our gyroscopic stabilizer system to the robot</p>
+                        <p class="mt-2">- Implement the previous years’ machine learning models to make the robot smart</p>
+
+                        <div class="text-h5 text--primary mt-10">Electrical</div>
+                        <p class="mt-2">- Create a custom devboard to mount all our microcontroller electronics to</p>
+                        <p class="mt-2">- Look into changing our wiring scheme to prevent strain on our wires</p>
+                        <p class="mt-2">- Actually implement the 48V design that was investigated in the previous year</p>
+                        <p class="mt-2">- Look into designing custom motor controller boards to ease our wiring situation</p>
                     </v-card-text>
                 </v-card>
             </v-col>
@@ -130,11 +120,9 @@ export default {
         return {
             items: [
                 {
-                    src: require('@/assets/AY24/team_full_spring.png'),
+                    src: require('@/assets/AY25/Rambot_Team_photo.png'),
                 },
-                {
-                    src: require('@/assets/AY24/team_full.png'),
-                },
+                
             ],
         };
     },

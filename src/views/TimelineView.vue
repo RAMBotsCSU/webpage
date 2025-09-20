@@ -7,7 +7,7 @@
                         <span class="font-weight-black">Project Timeline</span>
                     </v-card-title>
                     <v-card-text>
-                        <p>2024-2025 Team's Semester 1 Timeline</p>
+                        <p>2025-2026 Team's Semester 1 Timeline</p>
                         <p>Coming soon...</p>
                     </v-card-text>
                 </v-card>
