@@ -55,6 +55,18 @@
                                     Check out the previous year's website!
                                 </v-list-item-subtitle>
                             </v-list-item>
+                            <v-list-item>
+                                <v-list-item-title>
+                                    <a href="https://rambots-documentation.readthedocs.io/en/latest/" class="text-decoration-none">
+                                        RamBOTs Documentation
+                                    </a>
+                                </v-list-item-title>
+                                <v-list-item-subtitle class="ml-4">
+                                    Technical documentation for RamBOTs hardware and software
+                                </v-list-item-subtitle>
+                            </v-list-item>
+
+
                         </v-list>
                     </v-card-text>
                 </v-card>

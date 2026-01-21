@@ -147,6 +147,13 @@ export default {
                             email: 'evert@colostate.edu',
                             text: "I'm a senior mechanical engineering student and some of my favorite engineering topics are CAD, statics, and fluid mechanics. My hobbies include playing guitar, watching movies, learning languges, and video games."
                         },
+                        {
+                            title: 'Kang Sung',
+                            //src: require('@/assets/AY25/Headshots/'),
+                            //linkedin: ""
+                            //email: ''
+                            //text:""
+                        }
                     ],
                     vips: [
                         {
@@ -163,6 +170,13 @@ export default {
                             email: 'tobias.beesley@colostate.edu',
                             text: "I am a 3rd year EE major. My favorite topic in engineering is power and energy. In my spare time I like to paint historical and Warhammer miniatures."
                         },
+                        {
+                            title: 'Slade Hernandez',
+                            //src: require('@/assets/AY25/Headshots/'),
+                            //linkedin: ""
+                            //email: ''
+                            //text:""
+                        }
                     ],
                     advisor: 'Olivera Notaros',
                     industryMembers: ['Jon Lotz', 'Rich Artz'],
