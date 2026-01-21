@@ -6,7 +6,7 @@
                     <div class="d-flex flex-column justify-center">
                         <img width="80%" class="mt-6 mx-auto" :src="require('@/assets/RamLogoText.png')" />
 
-                        <v-btn href="https://projects-web.engr.colostate.edu/ece-sr-design/AY24/outreach/"
+                        <v-btn href="https://www.instagram.com/eceoutreachcsu/"
                             append-icon="mdi-link" variant="text" size="large" class="mx-8" target="_blank">
                             An ECE Outreach Project
 
@@ -121,7 +121,11 @@ export default {
             items: [
                 {
                     src: require('@/assets/AY25/Rambot_Team_photo.png'),
+                    
                 },
+                {
+                    src: require('@/assets/AY25/festival_at_the_oval.png'),
+                }
                 
             ],
         };

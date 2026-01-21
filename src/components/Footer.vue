@@ -5,7 +5,7 @@
                 <a href="https://give.colostate.edu/campaigns/40250/donations/new"
                     class="text-white text-decoration-underline">Support our program</a>
                 |
-                <a href="http://www.engr.colostate.edu/ECE401/AY24_senior_design_projects.php"
+                <a href="https://www.engr.colostate.edu/ece/senior-design/"
                     class="text-white text-decoration-underline">Other ECE Sr. Design projects</a>
                 |
                 <a href="https://www.engr.colostate.edu/ece/" class="text-white text-decoration-underline">ECE

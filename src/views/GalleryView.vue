@@ -38,6 +38,39 @@ export default {
             tab: 0,
             years: [
                 {
+                    title: '2025/2026',
+                    sections: [
+                        {
+                            title: 'Testing', cards: [
+                                { title: 'Working on Sparky', src: require('@/assets/AY25/gallery/festival1.jpg')},
+                                { title: 'Sparky walking analysis', src: require('@/assets/AY25/gallery/sparky_walk_testing.png')},
+                                { title: 'Sparky push up testing', src: require('@/assets/AY25/gallery/pushup_testing.png')}
+                            ]
+                        },
+                        {
+                            title: 'Construction', cards: [
+                                { title: 'Fixing Sparky', src: require('@/assets/AY25/gallery/hard_at_work.jpg')},
+                                { title: 'Assembling new wires', src: require('@/assets/AY25/gallery/assemblewires.png')},
+                                { title: 'Sparky with new upgrades', src: require('@/assets/AY25/gallery/sparky_new_wires.jpg')},
+                                { title: 'New Teensy Enclosure w/ PCB', src: require('@/assets/AY25/gallery/pcb.jpg')}  
+                            ]
+                        },
+                        {
+                            title: 'Events', cards: [
+                                { title: 'Festival at the Oval', src: require('@/assets/AY25/gallery/festival3.jpg')},
+                                {title: 'AI/Robotics Symposium', src: require('@/assets/AY25/gallery/ai_robotics_symposium.jpeg')},
+                                { title: 'ECE Community Connections Night', src: require('@/assets/AY25/gallery/eccn.jpg')}
+                            ]
+                        },
+                        {
+                            title: 'Team', cards: [
+                                { title: 'Year 5 Team Seniors', src: require('@/assets/AY25/Rambot_Team_photo.png') },
+                            ]
+                        }
+                        
+                    ]
+                },
+                {
                     title: '2023/2024',
                     sections: [
                         {

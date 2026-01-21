@@ -40,6 +40,13 @@ export default {
             loadingVideos: {},
             years: [
                 {
+                    title: '2025/2026',
+                    videos: [
+                        "Y6et6OwOmHo",
+                        "NeHGHhNDJQc"
+                    ]
+                },
+                {
                     title: '2023/2024',
                     videos: [
                         "rcZ5d448H4Y",
