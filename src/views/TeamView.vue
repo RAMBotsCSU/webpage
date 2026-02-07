@@ -149,10 +149,10 @@ export default {
                         },
                         {
                             title: 'Kang Sung',
-                            //src: require('@/assets/AY25/Headshots/'),
-                            //linkedin: ""
-                            //email: ''
-                            //text:""
+                            src: require('@/assets/AY25/Headshots/IMG_20260129_181616 - Sung Kang.jpg'),
+                            linkedin: "sung-kang-0208a1320",
+                            email: 'skang5260@gmail.com',
+                            text:"I am a 4th year electrical engineering student with an interest in CAD, additive manufacturing, embedded systems/IOT, and circuit design. For my hobbies I enjoy building and painting models, making props and costumes, and playing video games!"
                         }
                     ],
                     vips: [
@@ -172,15 +172,22 @@ export default {
                         },
                         {
                             title: 'Slade Hernandez',
-                            //src: require('@/assets/AY25/Headshots/'),
+                            src: require('@/assets/AY25/Headshots/IMG_2940 - Slade Hernandez.png'),
                             //linkedin: ""
-                            //email: ''
-                            //text:""
+                            email: 'sladehernandez10@gmail.com',
+                            text:"My name is Slade and I'm a second year Electrical Engineer. I enjoy working hands on with PCBs and circuit design, and learning about new concepts in general. Some of my hobbies include reading, hiking, working out, and playing video games."
+                        },
+                        {
+                            title: 'Hanna Merrell',
+                            src: require('@/assets/AY25/Headshots/IMG_8377 - Hanna Marie.jpeg'),
+                            linkedin: "hanna-merrell",
+                            email: 'Hmerrell@colostate.edu',
+                            text: "I am a 3rd-year, 2nd degree-seeking student studying mechanical engineering. Within engineering, I most enjoy design, prototyping, and anything to do with robotics or automation. Outside of school, you can find me playing video games, crafting, or spending time with my horse and dog."
                         }
                     ],
                     advisor: 'Olivera Notaros',
                     industryMembers: ['Jon Lotz', 'Rich Artz'],
-                    teamImage: require('@/assets/AY25/Rambot_Team_photo.png')
+                    teamImage: require('@/assets/AY25/gallery/rambots_seniors_team_photo.png')
                 },
                 {
                     title: '2024/2025',

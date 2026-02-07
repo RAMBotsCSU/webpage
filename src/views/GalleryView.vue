@@ -52,19 +52,23 @@ export default {
                                 { title: 'Fixing Sparky', src: require('@/assets/AY25/gallery/hard_at_work.jpg')},
                                 { title: 'Assembling new wires', src: require('@/assets/AY25/gallery/assemblewires.png')},
                                 { title: 'Sparky with new upgrades', src: require('@/assets/AY25/gallery/sparky_new_wires.jpg')},
-                                { title: 'New Teensy Enclosure w/ PCB', src: require('@/assets/AY25/gallery/pcb.jpg')}  
+                                { title: 'New Teensy Enclosure w/ PCB', src: require('@/assets/AY25/gallery/pcb.jpg')}, 
+                                { title: 'Armbot Development #1', src: require('@/assets/AY25/gallery/armbot_1.jpg')},
+                                { title: 'Armbot Development #2', src: require('@/assets/AY25/gallery/armbot_2.jpg')}
                             ]
                         },
                         {
                             title: 'Events', cards: [
                                 { title: 'Festival at the Oval', src: require('@/assets/AY25/gallery/festival3.jpg')},
-                                {title: 'AI/Robotics Symposium', src: require('@/assets/AY25/gallery/ai_robotics_symposium.jpeg')},
-                                { title: 'ECE Community Connections Night', src: require('@/assets/AY25/gallery/eccn.jpg')}
+                                { title: 'AI/Robotics Symposium', src: require('@/assets/AY25/gallery/ai_robotics_symposium.jpeg')},
+                                { title: 'ECE Community Connections Night', src: require('@/assets/AY25/gallery/eccn.jpg')},
+                                { title: 'Greeley BotBash', src: require('@/assets/AY25/gallery/botbash_event.jpg')},
                             ]
                         },
                         {
                             title: 'Team', cards: [
-                                { title: 'Year 5 Team Seniors', src: require('@/assets/AY25/Rambot_Team_photo.png') },
+                                { title: 'Year 5 Fall 2025 Team Seniors', src: require('@/assets/AY25/Rambot_Team_photo.png') },
+                                { title: 'Year 5 Spring 2026 Team Seniors', src: require('@/assets/AY25/gallery/rambots_seniors_team_photo.png')}
                             ]
                         }
                         

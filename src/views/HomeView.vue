@@ -125,6 +125,9 @@ export default {
                 },
                 {
                     src: require('@/assets/AY25/festival_at_the_oval.png'),
+                },
+                {
+                    src: require('@/assets/AY25/gallery/rambots_team_photo.png')
                 }
                 
             ],
